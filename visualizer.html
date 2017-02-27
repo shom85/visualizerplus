@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles2.css">
+
+    <!-- Favicon image -->
+    <link rel="icon" type="image/png" href="https://cdn.css-tricks.com/favicon-32x32.png" sizes="32x32">
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:800" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- -------------------- HEADER SECTION -------------------- -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container header_section">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="left_logo_section">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="visualizer.html"><img alt="Logo" src="images/smalllogo.png"></a>
+                    </div>
+                    <div class="navbar-header secondNavbarHeader">
+                      <h5 class="logoText">3D DESIGN SOFTWARE</h5>
+                    </div>
+                </div>
+                <!-- Collect the nav links,forms,and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="about.html" class="scroll-to">ABOUT</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <span id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOOLS<span class="caret"></span></span>
+                                <ul class="dropdown-menu" aria-labelledby="dLabel" style="height: auto;">
+                                    <li class="nav-sublink">
+                                        <a href="kitchen-visualizer.html">ROOM VISUALIZER</a>
+                                    </li>
+                                    <li class="nav-sublink">
+                                        <a href="aircraft-visualizer.html">AIRCRAFT VISUALIZER</a>
+                                    </li>
+                                    <li class="nav-sublink">
+                                        <a href="virtual-makeover.html">VIRTUAL MAKEOVER</a>
+                                    </li>
+                                    <li class="nav-sublink">
+                                        <a href="virtual-car.html">CAR VISUALIZER</a>
+                                    </li>
+                                    <li class="nav-sublink">
+                                        <a href="watercraft-visualizer.html">WATERCRAFT VISUALIZER</a>
+                                    </li>
+                                    <li class="nav-sublink">
+                                        <a href="virtual-manicure.html">VIRTUAL MANICURE</a>
+                                    </li>
+                                    <li class="nav-sublink">
+                                        <a href="outfit-visualizer.html">OUTFIT VISUALIZER</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="../visualizerplustwo">NEWS</a></li>  
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+    </nav>
+    <!-- -------------------- END OF HEADER SECTION -------------------- -->
+
+
+
+
+
+
+    <!-- ==================  SLIDER SECTION ================== -->
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> <!-- THIS ONE IS HIDDEN -->
+        
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner custom_slider" role="listbox">
+            <div class="item active">
+                <img src="images/main-first-section.png" style="width: 100%" alt="1st Slider Image">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item image_slider">
+                <img src="images/main-first-section.png" style="width: 100%" alt="2nd Slider Image">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item image_slider">
+                <img src="images/main-first-section.png" style="width: 100%" alt="3rd Slider Image">
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+
+
+
+    <div class="containaer-fluid unique_slider">
+        <div class="accordion">
+          <ul>
+            <li>
+                <div id="overlay_on_image">
+                    <div class="slider_top_text_title">
+                        <p class="slider_top_text">Tools</p>
+                    </div>
+                    <div class="title_info_options">
+                        <a href="kitchen-visualizer.html"><h2>Room <br/> Visualizer</h2></a>
+                        <p>Create your own photo-realistic custom interior designs.</p>
+                        <button href="kitchen-visualizer.html" type="button" class="btn btn-primary main_slider_button"><a href="kitchen-visualizer.html">TRY NOW</a></button>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div id="overlay_on_image">
+                    <div class="slider_top_text_title">
+                        <p class="slider_top_text">Tools</p>
+                    </div>
+                    <div class="title_info_options">
+                        <a href="aircraft-visualizer.html"><h2>Aircraft <br/> Visualizer</h2></a>
+                        <p>Customize your G6 (and other types of aircraft too)!</p>
+                        <button href="kitchen-visualizer.html" type="button" class="btn btn-primary main_slider_button"><a href="aircraft-visualizer.html">TRY NOW</a></button><!-- 
+                        <a href="aircraft-visualizer.html">
+                            <div class="main_slider_button">TRY NOW</div>
+                        </a> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div id="overlay_on_image">
+                    <div class="slider_top_text_title">
+                        <p class="slider_top_text">Tools</p>
+                    </div>
+                    <div class="title_info_options">
+                        <a href="virtual-makeover.html"><h2>Virtual <br/> Makeover</h2></a>
+                        <p>Find the look that best complements your unique style before going to the real salon.</p>
+                        <button href="kitchen-visualizer.html" type="button" class="btn btn-primary main_slider_button"><a href="virtual-makeover.html">TRY NOW</a></button><!-- 
+                        <a href="virtual-makeover.html">
+                            <div class="main_slider_button">TRY NOW</div>
+                        </a> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div id="overlay_on_image">
+                    <div class="slider_top_text_title">
+                        <p class="slider_top_text">Tools</p>
+                    </div>
+                    <div class="title_info_options">
+                        <a href="virtual-car.html"><h2>Car <br/> Visualizer</h2></a>
+                        <p>Preview several different custom interiors to help you decide which one to make real.</p>
+                        <button href="kitchen-visualizer.html" type="button" class="btn btn-primary main_slider_button"><a href="virtual-car.html">TRY NOW</a></button><!-- 
+                        <a href="virtual-car.html">
+                            <div class="main_slider_button">TRY NOW</div>
+                        </a> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div id="overlay_on_image">
+                    <div class="slider_top_text_title">
+                        <p class="slider_top_text"></p>
+                    </div>
+                    <div class="title_info_options">
+                        <a href="watercraft-visualizer.html"><h2>Watercraft <br/> Visualizer</h2></a>
+                        <p>Try out several different designs for your watercraft before taking the plunge for real. </p>
+                        <button href="kitchen-visualizer.html" type="button" class="btn btn-primary main_slider_button"><a href="watercraft-visualizer.html">TRY NOW</a></button><!-- 
+                        <a href="watercraft-visualizer.html">
+                            <div class="main_slider_button">TRY NOW</div>
+                        </a> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div id="overlay_on_image">
+                    <div class="slider_top_text_title">
+                        <p class="slider_top_text"></p>
+                    </div>
+                    <div class="title_info_options">
+                        <a href="virtual-manicure.html"><h2>Virtual <br/> Manicure</h2></a>
+                        <p>Decorate your digits in virtual space to find the perfect color.</p>
+                        <button href="kitchen-visualizer.html" type="button" class="btn btn-primary main_slider_button"><a href="virtual-manicure.html">TRY NOW</a></button><!-- 
+                        <a href="virtual-manicure.html">
+                            <div class="main_slider_button">TRY NOW</div>
+                        </a> -->
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div id="overlay_on_image">
+                    <div class="slider_top_text_title">
+                        <p class="slider_top_text"></p>
+                    </div>
+                    <div class="title_info_options">
+                        <a href="outfit-visualizer.html"><h2>Outfit <br/> Visualizer</h2></a>
+                        <p>Virtually try out thousands of different outfits and see how they’d really look on you.</p>
+                        <button href="kitchen-visualizer.html" type="button" class="btn btn-primary main_slider_button"><a href="outfit-visualizer.html">TRY NOW</a></button><!-- 
+                        <a href="outfit-visualizer.html">
+                            <div class="main_slider_button">TRY NOW</div>
+                        </a> -->
+                    </div>
+                </div>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="text-carousel" class="container-fluid carousel slide text-carousel" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#text-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#text-carousel" data-slide-to="1"></li>
+            <li data-target="#text-carousel" data-slide-to="2"></li>
+            <li data-target="#text-carousel" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+                <div class="container carousel-inner">
+                    <div class="item active">
+                        <div class="carousel-content">
+                            <div class="col-sm-7">
+                                <h4 class="section-title">ABOUT <span style="color: #f6710a;">VISUALIZER+</span></h4>
+                                <p>Visualizer Plus is one of the leaders of the virtual reality revolution. We are working to construct the future of intelligent content by developing interactive, captivating, and customizable virtual reality software that are customized to fit our partner’s needs.</p>
+                                <a href="about.html">Learn more</a>
+                            </div>
+                            <div class="col-sm-5">
+                              <img src="images/slider_img01.png" style="padding: 10px 0;" alt="3rd Slider Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-content">
+                            <div class="col-sm-7 pull-right">
+                                <h4 class="section-title">CUSTOM VR <span style="color: #f6710a;">DEVELOPMENT</span></h4>
+                                <p>Visualizer+ is a powerful and dynamic way to showcase your products and prototypes through custom applications. Our in-house engineers and 3D graphics team design complex virtual reality appliances to fit your every specification.</p>
+                                <!-- <a href="#">Learn more</a> -->
+                            </div>
+                            <div class="col-sm-5">
+                              <img src="images/slider_img02.png" style="padding: 10px 0;" alt="3rd Slider Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-content">
+                            <div class="col-sm-7">     
+                                <h4 class="section-title">RENDERING THE CREATIVE <span style="color: #f6710a;">FRONTIER</span></h4>                     
+                                <p>Whether it's for automotive, architectural, or fashion industries, 3D visualizations create the most engaging perspective for generating excitement and attention for new products. Our 3D creations are not only ideal for website integration but for tradeshows, presentations, and production brainstorms.</p><!-- 
+                                <a href="#">Learn more</a> -->
+                            </div>
+                            <div class="col-sm-5">
+                              <img src="images/slider_img03.png" style="padding: 10px 0;" alt="3rd Slider Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-content">
+                            <div class="col-sm-7 pull-right">     
+                                <h4 class="section-title">FROM ASSETS TO <span style="color: #f6710a;">ASSISTANTS</span></h4>                     
+                                <p> Visualizer+ develops a full spectrum of 3D models and virtual reality tools. From simple assets, to interactive virtual assistants, we produce hi-definition solutions that beautifully blur the lines what is virtual and reality. In a tech-hungry marketplace, Visualizer+ helps you rise above the rest.</p>
+                                <!-- <a href="#">Learn more</a> -->
+                            </div>
+                            <div class="col-sm-5">
+                              <img src="images/slider_img04.png" style="padding: 10px 0;" alt="3rd Slider Image">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+        <!-- Controls --> <a class="left carousel-control" href="#text-carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+     <a class="right carousel-control" href="#text-carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+
+    </div>
+    <!-- ================== END OF SLIDER SECTION ================== -->
+
+
+    <!-- ============================ Our Tools Section ============================== -->
+    <div class="container-fluid our_tools_section">
+        <div id="ourTools" class="container">
+          <h4 class="section-title">OUR <span style="color: #f6710a;">TOOLS</span></h4>
+          <div class="row">
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div>
+                    <img src="images/our_tools_images_01.jpg" alt="...">
+                </div>
+                <div class="col-xs-12 our-tools_title-button">
+                    <div class="col-xs-10">
+                        <h4>KITCHEN <br/> VISUALIZER</h4>
+                    </div>
+                    <div class="col-xs-2">
+                        <a href="kitchen-visualizer.html"><span class="glyphicon glyphicon-chevron-right more_button"></span></a>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div>
+                <img src="images/our_tools_images_02.jpg" alt="...">
+              </div>
+              <div class="col-xs-12 our-tools_title-button">
+                    <div class="col-xs-10">
+                        <h4>AIRCRAFT <br/> VISUALIZER</h4>
+                    </div>
+                    <div class="col-xs-2">
+                        <a href="aircraft-visualizer.html"><span class="glyphicon glyphicon-chevron-right more_button"></span></a>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div>
+                <img src="images/our_tools_images_03.jpg" alt="...">
+              </div>
+              <div class="col-xs-12 our-tools_title-button">
+                    <div class="col-xs-10">
+                        <h4>VIRTUAL <br/> MAKEOVER</h4>
+                    </div>
+                    <div class="col-xs-2">
+                        <a href="virtual-makeover.html"><span class="glyphicon glyphicon-chevron-right more_button"></span></a>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div>
+                <img src="images/our_tools_images_04.jpg" alt="...">
+              </div>
+              <div class="col-xs-12 our-tools_title-button">
+                    <div class="col-xs-10">
+                        <h4>VIRTUAL <br/> CAR <br/> CUSTOMIZER</h4>
+                    </div>
+                    <div class="col-xs-2">
+                        <a href="virtual-car.html"><span class="glyphicon glyphicon-chevron-right more_button"></span></a>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div>
+                <img src="images/our_tools_images_05.jpg" alt="...">
+              </div>
+              <div class="col-xs-12 our-tools_title-button">
+                    <div class="col-xs-10">
+                        <h4>WATERCRAFT <br/> VISUALIZER</h4>
+                    </div>
+                    <div class="col-xs-2">
+                        <a href="watercraft-visualizer.html"><span class="glyphicon glyphicon-chevron-right more_button"></span></a>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div>
+                <img src="images/our_tools_images_06.jpg" alt="...">
+              </div>
+              <div class="col-xs-12 our-tools_title-button">
+                    <div class="col-xs-10">
+                        <h4>VIRTUAL <br/> MANICURE</h4>
+                    </div>
+                    <div class="col-xs-2">
+                        <a href="virtual-manicure.html"><span class="glyphicon glyphicon-chevron-right more_button"></span></a>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div>
+                <img src="images/our_tools_images_07.jpg" alt="...">
+              </div>
+              <div class="col-xs-12 our-tools_title-button">
+                    <div class="col-xs-10">
+                        <h4>OUTFIT <br/> VISUALIZER</h4>
+                    </div>
+                    <div class="col-xs-2">
+                        <a href="outfit-visualizer.html"><span class="glyphicon glyphicon-chevron-right more_button"></span></a>
+                    </div>
+                </div>
+            </div> 
+
+          </div>
+        </div>
+    </div>
+<!-- ======================== End of Our Tools Section ========================== -->
+
+
+
+<!-- ======================== More About Our Tools Section ========================== -->
+<div class="container-fluid more_about_our_tools_section">
+    <div class="container more_tools_section">
+      <h4 class="section-title">MORE ABOUT <span style="color: #f6710a;">VISUALIZER+</span></h4>
+      <div class="row col-sm-12 col-md-6">
+        <div class="col-sm-6">
+            <div class="caption">
+                <span class="glyphicon glyphicon-ok more_button"></span><h3>3D SCANNING AND MOTION CAPTURE</h3>
+                <p>To achieve the best fidelity to human characteristics, facial geometry, and fluid motion we used the latest technologies for 3D scanning and motion capture.</p>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="caption">
+                <span class="glyphicon glyphicon-ok more_button"></span><h3>BEAUTIFUL, DYNAMIC, REALISTIC</h3>
+                <p>Our photorealistic 3D renders are produced in the highest quality to create convincing digital representations.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row col-sm-12 col-md-6">
+
+        <div class="col-sm-6">
+            <div class="caption">
+                <span class="glyphicon glyphicon-ok more_button"></span><h3>FULL INTEGRATION</h3>
+                <p>Our software features seamless integration with all VR headsets, projectors, and screens.</p>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="caption">
+                <span class="glyphicon glyphicon-ok more_button"></span><h3>SUPPORT AND IMPLEMENTATION</h3>
+                <p>Custom branded VR headsets, interactive display units, and much more, in addition to full support.</p>
+            </div>
+        </div>
+
+      </div>
+    </div>
+</div>
+<!-- ======================== End of More About Our Tools Section ========================== -->
+
+
+
+<!-- ================================== Footer Section ==================================== -->
+<footer>
+    <div class="container-fluid get_in_touch_section">
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="col-xs-12 col-md-8"><h4>WANT TO GET STARTED ON YOUR VR PROJECT? GET IN TOUCH WITH US.</h4></div>
+                <div class="col-xs-12 col-md-4 align-right"><p>Contact us at: <a href="mailto:info@visualizer.com">info@visualizerplus.com</a></p></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid copyright_section">
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="col-xs-12 col-md-6"><p><span class="glyphicon glyphicon-copyright-mark"></span> 2017 Visualizer Plus</p></div>
+                <div class="col-xs-12 col-md-6 align-right"><p><!-- Design by vroblevsky.com --></p></div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ============================== End of Footer Section ================================= -->
+
+
+<script type="text/javascript">
+$(".burgerBar").click(function(){
+    $(".glyphicon-align-justify").toggleClass("hideBurgerBar");
+    $(".closeBar").toggleClass("showCloseBar");
+    $(".navbar-toggle").toggleClass("updatePadding");;
+});
+
+$(".navbar-toggle").click(function(){
+    $(".navbar-toggle").toggleClass("rotateThis");
+});
+
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+
+
+
+</script>
+
+</body>
+
+</html>
+
+
+
+
+

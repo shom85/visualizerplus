@@ -1,0 +1,81 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container header_section">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="left_logo_section">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="visualizer.html"><img alt="Logo" src="images/smalllogo.png"></a>
+                    </div>
+                    <div class="navbar-header secondNavbarHeader">
+                      <h5 class="logoText">3D DESIGN SOFTWARE</h5>
+                    </div>
+                </div>
+                <!-- Collect the nav links,forms,and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="about.html" id="about">ABOUT</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <span id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOOLS<span class="caret"></span></span>
+                                <ul class="dropdown-menu" aria-labelledby="dLabel" style="height: auto;">
+                                    <li class="nav-sublink">
+                                        <a href="kitchen-visualizer.html">ROOM VISUALIZER</a>
+                                    </li>
+                                    <li class="nav-sublink">
+                                        <a href="aircraft-visualizer.html">AIRCRAFT VISUALIZER</a>
+                                    </li>
+                                    <li class="nav-sublink">
+                                        <a href="virtual-makeover.html">VIRTUAL MAKEOVER</a>
+                                    </li>
+                                    <li class="nav-sublink">
+                                        <a href="virtual-car.html">CAR VISUALIZER</a>
+                                    </li>
+                                    <li class="nav-sublink">
+                                        <a href="watercraft-visualizer.html">WATERCRAFT VISUALIZER</a>
+                                    </li>
+                                    <li class="nav-sublink">
+                                        <a href="virtual-manicure.html">VIRTUAL MANICURE</a>
+                                    </li>
+                                    <li class="nav-sublink">
+                                        <a href="outfit-visualizer.html">OUTFIT VISUALIZER</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="../../visualizerplustwo/">NEWS</a></li>  
+                        <li><a href="/visualizerplus/contact.html" id="contact" class="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+    </nav>
+
+<script>
+    $(function(){
+        var url = window.location.pathname, 
+        urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
+
+        $('.navbar-nav > li > a').each(function(){
+            if(urlRegExp.test(this.href.replace(/\/$/,''))){
+                $(this).addClass('navbar_active_menu_title');
+            }
+        });
+    });
+
+    $(function(){
+        var url = window.location.pathname, 
+        urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
+
+        $('.nav-sublink a').each(function(){
+            if(urlRegExp.test(this.href.replace(/\/$/,''))){
+                $(this).addClass('navbar_active_submenu_title');
+                $(".dropdown").addClass('navbar_active_menu_title');
+            }
+        });
+    });
+</script> 

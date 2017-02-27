@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles2.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:800" rel="stylesheet">
+
+    <script>
+        $(function() {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
+</head>
+
+<body class="newsPage">
+
+
+    <!-- -------------------- HEADER SECTION -------------------- -->
+    <div id="header"></div>
+    <!-- -------------------- END OF HEADER SECTION -------------------- -->
+
+
+    <div class="container-fluid newsList">
+        <div class="container">
+
+            <div class="top_page_title">
+                <h4>News</h4>
+                <h1>Visualizer<span style="color: #f6710a;">Plus</span></h1>
+                NOT GOING TO BE THE NEWS PAGE
+            </div>
+
+            <div class="row list_of_news_article"> <!-- All the titles of the articles are within this div -->
+
+                <div class="media">
+                    <div class="media-left media-middle col-xs-12 col-sm-2">
+                        <a href="#">
+                            <img class="media-object" src="images/Kitchen_Tuscan_Milano.png" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body col-xs-12 col-sm-10">
+                        <h2 class="media-heading">The Newest 3D Kitchen From Visualizer Plus: Tuscan Milano</h2>
+                        <p>Welcome to the Tuscan Milano kitchen, which showcases a fusion of traditional and modern design. Here, you can swap out every feature and appliance until you create the kitchen of your dreams. Choose from over 16 billion combinations...</p>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#news1">
+                          Read More
+                        </button>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <div class="media-left media-middle col-xs-12 col-sm-2">
+                        <a href="#">
+                            <img class="media-object" src="http://www.placehold.it/100x100" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body col-xs-12 col-sm-10">
+                        <h2 class="media-heading">The Next Generation of Online Kitchen Design</h2>
+                        <p>The next generation of kitchen design is here with the Visualizer Plus. It’s never been easier to plan your kitchen renovation or new kitchen construction than with our innovative...</p>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#news2">
+                          Read More
+                        </button>
+                    </div>
+                </div>
+
+                <!-- <div class="media">
+                    <div class="media-left media-middle col-xs-12 col-sm-2">
+                        <a href="#">
+                            <img class="media-object" src="http://www.placehold.it/100x100" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body col-xs-12 col-sm-10">
+                        <h2 class="media-heading">News Title 3</h2>
+                        <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus...</p>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#news3">
+                          Read More
+                        </button>
+                    </div>
+                </div> -->
+
+                <!-- <div class="media">
+                    <div class="media-left media-middle col-xs-12 col-sm-2">
+                        <a href="#">
+                            <img class="media-object" src="http://www.placehold.it/100x100" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body col-xs-12 col-sm-10">
+                        <h2 class="media-heading">News Title 4</h2>
+                        <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus...</p>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#news4">
+                          Read More
+                        </button>
+                    </div>
+                </div> -->
+
+            </div> <!-- End of titles -->
+
+
+
+    
+
+            <!--ALL Modal -->
+            <div class="modal fade" id="news1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title" id="myModalLabel">The Newest 3D Kitchen From Visualizer Plus: Tuscan Milano</h4>
+                  </div>
+                  <div class="media-left media-middle col-xs-12 col-sm-4">
+                        <img class="media-object imageWithinModal" src="images/Kitchen_Tuscan_Milano.png" alt="...">
+                  </div>
+                  <div class="modal-body">
+                    <p class="firstLetterCap">Welcome to the Tuscan Milano kitchen, which showcases a fusion of traditional and modern design. Here, you can swap out every feature and appliance until you create the kitchen of your dreams. Choose from over 16 billion combinations by selecting from various countertop, countertop edge, cabinet, cabinet handles, flooring, wall color, appliance, and lighting options. You’ll be able to build your kitchen using products from the top kitchen companies in the world, such as Viking, Marble.com, Feiss, Cubitac, Mr. Stone, Wolf, Lumber Liquidators, and DiMonte. Once you’ve found an item that you like, click the tag to find where to buy it. After finding a design that you’re happy with, save, print, email or share it.</p>
+
+                    <h4><strong>Countertops</strong></h4>
+
+                    <p>Perimeter countertops should be chosen with longevity in mind. Materials such as granite and quartz will be able to stand up to the daily wear and tear of cooking, entertaining, and cleaning. Some softer materials like marble and quartzite can be used too, but will require additional maintenance to preserve their beauty. Marble.com has provided the largest selection of granite colors in the industry.</p>
+
+                    <p>Kitchen islands can be designed to either match the perimeter countertops or be used as an accent piece. Using a contrasting color can create an attractive design, whereas keeping the colors consistent creates a cohesive décor.</p>
+
+                    <h4><strong>Cabinets</strong></h4>
+
+                    <p>Cabinets are typically one of the first elements decided on for the kitchen. Cubitac and Hampshire have provided a great selection of dark and light cabinets including handles for you to choose from. White cabinets have become a popular kitchen design trend because it makes the room to appear more spacious. Espresso cabinets are a great option too. They will for provide a warm and cozy kitchen environment.</p>
+
+                    <h4><strong>Backsplash</strong></h4>
+
+                    <p>Kitchen backsplashes no longer simply protect walls from spills and splatters, a wide array of eye-catching materials like granite, travertine, and other natural stones can be used to make the backsplash the focal point of today's kitchens. The full backsplash in this kitchen is an excellent way to add some unique style to the hub of your home.</p>
+
+                    <h4><strong>Countertop Edge</strong></h4>
+
+                    <p>The fine details of your kitchen come together to create a unique décor. Although, selecting an edge for your countertops may seem like an afterthought, it will add the perfect finishing touch. Using a straight or quarter round edge will fit a modern design, whereas, edges such as Ogee and Bullnose works best for traditional decors.</p>
+
+                    <h4><strong>Floor</strong></h4>
+
+                    <p>Floors are going to take a beating anywhere, but especially in the kitchen. Selecting a kitchen floor that looks great but is also durable and stain concealing is important. Selecting from our great variety of options from Lumber Liquidators and Ann Sacks, you’ll be able to find the hardwood or tile floor that is right for your home.</p>
+
+                    <h4><strong>Chairs</strong></h4>
+
+                    <p>The breakfast bar chairs are from Bue Dot and are available in 10 different colors to suit your specific kitchen design.</p>
+
+                    <h4><strong>Stove</strong></h4>
+
+                    <p>The stove is the hub of kitchen activity. Stainless steel is durable enough to handle the wear and tear that a heavily used stove will experience over years of cooking. Select from Viking and Wolf, two of the most popular stainless steel stove companies on the market today.  </p>
+
+                    <h4><strong>Oven</strong></h4>
+
+                    <p>Having a separate oven from the stove is a popular and practical design that allows for ease of preparation when making large meals for entertaining. The oven that you see here is a part of the Viking line. You can also select from Bertazzoni ovens as well.</p>
+
+                    <h4><strong>Range</strong></h4>
+
+                    <p>The stove range, or hood, seen in this kitchen is 48 inches wide, which on the larger side. There are a variety of options available from Viking and Wolfe, some of the top range companies. Generally, the range will match with the appearance of the stove, however, it’s your decision to keep it consistent or change things up.</p>
+
+                    <h4><strong>Lighting</strong></h4>
+
+                    <p>Lighting is one of the most important elements of any room. The amount of natural light your room receives will determine what kind of lighting is best for your kitchen. Choose from a variety of Feiss fixtures to determine what style fits best for your design.</p>
+
+                    <h4><strong>Wall Color</strong></h4>
+
+                    <p>The wall color for your kitchen sets the mood for the room. Choose from a vast selection of Behr paints to find the tone that best suits yours. Lighter colors will be ideal for smaller rooms or those are short on natural light, whereas, if natural light is plentiful in your kitchen, warmer colors can look great.</p>
+
+                    <h4><strong>Refrigerator</strong></h4>
+
+                    <p>The refrigerator is one of the most important components of any kitchen. Not only will keep your food fresh, but it is an essential design point. Stainless steel refrigerators are a sanitary and stylish option. Choose your ideal fridge from our selection of line of Viking.</p>
+
+                    <h4><strong>Other Appliances</strong></h4>
+
+                    <p>Some additional appliances in this kitchen are a state-of-the-art wine fridge and dishwasher. Options for each of these are provided by Viking and feature beautiful stainless steel options that are durable and stylish.</p>
+
+                    <h4><strong>Sinks</strong></h4>
+
+                    <p>The sink is the workhorse of the kitchen. It endures the daily wear and tear of cooking and cleaning, therefore requiring a durable but, of course, stylish option. Choose from the great line of DiMonte sinks available here to find the right one for your kitchen design.</p>
+
+                    <h4><strong>More Kitchens Coming Soon </strong></h4>
+
+
+                    <p>We are constantly working on new kitchen environments and many more will be added soon! There is no better way to provide your customers with a simple way to experiment and discover the options for their ideal kitchen design. With the Visualizer Plus, you and your customers will be able to save an extraordinary amount of time by avoiding thick fabric catalogs or visiting congested home improvement stores. If you would like to have the Visualizer Plus installed on your company’s webpage, contact us today.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="news2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title" id="myModalLabel">News Title 2</h3>
+                  </div>
+                  <div class="media-left media-middle col-xs-12 col-sm-4">
+                        <img class="media-object imageWithinModal" src="http://www.placehold.it/100x100" alt="...">
+                  </div>
+                  <div class="modal-body">
+                    <p class="firstLetterCap">The next generation of kitchen design is here with the Visualizer Plus. It’s never been easier to plan your kitchen renovation or new kitchen construction than with our innovative online design tool. With just the click of a finger, your dream kitchen will appear, in real time, right in front of your eyes. With over 16 billion options to choose from, there are unlimited possibilities, so you’ll be able to create that dream kitchen you’ve always wanted. Or if you’re still on the fence about how you’d like your new kitchen to look, test it out here before committing so much time and money on your kitchen’s design before truly knowing what it will look like. You would never buy a pair of jeans without trying them on, so why take a risk on installing a kitchen without an affirmation that it’s the right fit first?</p>
+
+                    <p>The Visualizer Plus has plenty of kitchen design options so you can create your ideal cooking space, including applicances and products from some of the top home improvement companies in the world. There is an extensive variety of countertop, backsplash, cabinet, flooring, and wall color choices to chose from as well. Anything from white marble to porcelain tiles floors and cherry wood cabinets can all come to life in the Visualizer Plus. Customizing a kitchen has never had more options before. Partnerships with real kitchen supply companies means that the products in the virtual designer are high quality 3D renders from actual items. The Visualizer Plus creates a realistic and authentic approach to designing a kitchen from the comfort of your own home.</p>
+
+                    <p>With over 16 billion options, our kitchen designer has a limitless amount of options to choose from. Everything from the most eccentric look to a conservative traditional look can be created using the Visualizer Plus. New colors of countertops, cabinets, backsplashes, floors and wall colors are added constantly, to keep up with current interior design trends. An extensive menu of natural stone options is also available to determine which of the many varieties of granite is the right one for you. Our cabinet selection has every option that could be found the top cabinet stores around the county and our flooring options will be able to fit any design that you have in mind.</p>
+
+                    <p>Since there are so many options we’ve added a virtual assist to help you determine which one is best for you! By selecting the “Help” option in the bottom right area of the visualizer, our helpful and friendly assistant will walk in and provide you with insights on the benefits of each countertop material because, although they all look fantastic, every natural stone has a different composition and some are not the best for kitchen countertops. She will also cover design tips and describe how to create the most popular kitchen design styles. The Visualizer Plus assistant is perfect for those who are still uncertain of what they want for their kitchen or if you are curious about if you are making the right choices that will stand the test of the time.  When you’ve heard enough, you can simply hide the assistant.</p>
+
+                    <p>One of the best qualities of the Visualizer Plus is its easy-to-use interface. Simply clicking on an area highlights brings up a menu of options to select from. As you scroll through the color choices and pick various ones, they will change immediately. The name of what you’ve chosen will appear in the bottom left corner of the screen. In order to provide the most realistic look and quickest speed possible, our expert team of graphic designers and rendering specialists constructed attention focused images that provide an accurate interpretation for the images in each specific room, a labor intensive process that was well worth the time for the look of the final product. </p>
+
+                    <p>If you’ve ever wondered what your kitchen would look like with a hardwood floor, one click and you can see it. Ever think about painting your cabinets? Test it out on the visualizer first before dedicating an entire weekend to it. Curious how granite countertops would look with those new cabinets? With The Visualizer Plus, it’s all in your hands. Once the kitchen design is complete, save the design, email it, share it, or even print it. Step into the next generation of online kitchen design with the Visualizer Plus.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="news3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title" id="myModalLabel">News Title 3</h3>
+                  </div>
+                  <div class="media-left media-middle col-xs-12 col-sm-4">
+                        <img class="media-object imageWithinModal" src="http://www.placehold.it/100x100" alt="...">
+                  </div>
+                  <div class="modal-body">
+                    <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin</p> 
+
+                    <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                    Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
+
+                    <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
+
+                    <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
+
+                    <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
+
+                    <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="news4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title" id="myModalLabel">News Title 4</h3>
+                  </div>
+                  <div class="media-left media-middle col-xs-12 col-sm-4">
+                        <img class="media-object imageWithinModal" src="http://www.placehold.it/100x100" alt="...">
+                  </div>
+                  <div class="modal-body">
+                    <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin</p> 
+
+                    <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                    Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
+
+                    <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
+
+                    <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
+
+                    <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
+
+                    <p>Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ================================== Footer Section ==================================== -->
+<div id="footer"></div>
+<!-- ============================== End of Footer Section ================================= -->
+
+<script type="text/javascript">
+$(".burgerBar").click(function(){
+    $(".glyphicon-align-justify").toggleClass("hideBurgerBar");
+    $(".closeBar").toggleClass("showCloseBar");
+    $(".navbar-toggle").toggleClass("updatePadding");;
+});
+
+$(".navbar-toggle").click(function(){
+    $(".navbar-toggle").toggleClass("rotateThis");
+});
+
+
+// --------CODE FOR HAMBURGER BAR TRANSITION TO ARROW---------------
+// $(".c-hamburger").click(function(){
+//     $("#bs-example-navbar-collapse-1").toggleClass("showNavBar");
+// });
+
+
+
+// (function() {
+
+//   "use strict";
+
+//   var toggles = document.querySelectorAll(".c-hamburger");
+
+//   for (var i = toggles.length - 1; i >= 0; i--) {
+//     var toggle = toggles[i];
+//     toggleHandler(toggle);
+//   };
+
+//   function toggleHandler(toggle) {
+//     toggle.addEventListener( "click", function(e) {
+//       e.preventDefault();
+//       (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+//     });
+//   }
+
+// })();
+
+// --------END OF CODE FOR HAMBURGER BAR TRANSITION TO ARROW---------------
+
+
+</script>
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
