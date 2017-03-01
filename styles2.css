@@ -56,6 +56,7 @@ img {
     font-family: 'Exo 2', sans-serif;
     font-weight: 800;
     font-size: 46px;
+    -webkit-font-smoothing: antialiased;
 }
 .top_page_title h4 {
     text-transform: uppercase;
@@ -63,6 +64,7 @@ img {
     font-weight: 800;
     text-align: center;
     color: #818487;
+    -webkit-font-smoothing: antialiased;
 
 }
 
