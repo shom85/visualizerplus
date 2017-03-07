@@ -1050,6 +1050,13 @@ footer .container > .col-xs-12 {
     height: 75%;
   }
 
+  #overlay_on_image {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  #overlay_on_image .title_info_options {
+    opacity: 1;
+  }
+
 
   .slider_top_text {
     display: none;
