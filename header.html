@@ -20,9 +20,9 @@
                     <ul class="nav navbar-nav">
                         <li><a href="about.html" id="about">ABOUT</a></li>
                         <li>
-                            <div class="dropdown">
-                                <span id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOOLS<span class="caret"></span></span>
-                                <ul class="dropdown-menu" aria-labelledby="dLabel" style="height: auto;">
+                            <div class="dropdown dropdown_tools">
+                                <a href="tools.html" id="openToolsPage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOOLS<span class="caret"></span></a>
+                                <ul class="dropdown-menu" aria-labelledby="" style="height: auto;">
                                     <li class="nav-sublink">
                                         <a href="kitchen-visualizer.html">ROOM VISUALIZER</a>
                                     </li>
@@ -47,8 +47,42 @@
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="../../visualizerplustwo/">NEWS</a></li>  
-                        <li><a href="/visualizerplus/contact.html" id="contact" class="">CONTACT</a></li>
+                        <li>
+                            <div class="dropdown dropdown_services">
+                                <a href="services.html" id="openServicesPage" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICES<span class="caret"></span></a>
+                                <ul class="dropdown-menu" aria-labelledby="" style="height: auto;">
+                                    <li class="nav-sublink2">
+                                        <a href="farm-rendering.html">FARM RENDERING</a>
+                                    </li>
+                                    <li class="nav-sublink2">
+                                        <a href="ultra-realistic-photos.html">ULTRA REALISTIC PHOTOS</a>
+                                    </li>
+                                    <li class="nav-sublink2">
+                                        <a href="threed-scanning.html">3D SCANNING</a>
+                                    </li>
+                                    <li class="nav-sublink2">
+                                        <a href="custom-threed-tools.html">CUSTOM 3D TOOLS</a>
+                                    </li>
+                                    <li class="nav-sublink2">
+                                        <a href="threesixty-vr.html">360 VR APPS</a>
+                                    </li>
+                                    <li class="nav-sublink2">
+                                        <a href="oculus-rift.html">OCULUS RIFT APPS</a>
+                                    </li>
+                                    <li class="nav-sublink2">
+                                        <a href="realistic-threed-animations.html">REALISTIC 3D ANIMATIONS</a>
+                                    </li>
+                                    <li class="nav-sublink2">
+                                        <a href="graphic-design.html">GRAPHIC DESIGN</a>
+                                    </li>
+                                    <li class="nav-sublink2">
+                                        <a href="custom-googles.html">CUSTOM GOOGLES</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- <li><a href="../../visualizerplustwo/">NEWS</a></li> -->  
+                        <li><a href="contact.html" id="contact" class="">CONTACT</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -74,8 +108,31 @@
         $('.nav-sublink a').each(function(){
             if(urlRegExp.test(this.href.replace(/\/$/,''))){
                 $(this).addClass('navbar_active_submenu_title');
-                $(".dropdown").addClass('navbar_active_menu_title');
+                $(".dropdown_tools").addClass('navbar_active_menu_title');
             }
         });
+
+    });
+
+    $(function(){
+        var url = window.location.pathname, 
+        urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
+
+        $('.nav-sublink2 a').each(function(){
+            if(urlRegExp.test(this.href.replace(/\/$/,''))){
+                $(this).addClass('navbar_active_submenu_title');
+                $(".dropdown_services").addClass('navbar_active_menu_title');
+            }
+        });
+
+    });
+
+    $('#openToolsPage').click(function(){
+      window.location = 'tools.html';
+    });
+    $('#openServicesPage').click(function(){
+      window.location = 'services.html';
     });
 </script> 
+
+

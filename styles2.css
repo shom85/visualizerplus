@@ -2,6 +2,7 @@ a {
   text-decoration: none !important;
   /*font-size: 16px;*/
   font-family: 'Exo 2', sans-serif;
+  color: inherit;
 }
 a:hover {
   /*color: #f6710a !important; */
@@ -121,10 +122,10 @@ a.navbar-brand {
       justify-content: center;
       align-items: center;
     }*/
-  .dropdown ul li {
+  .dropdown_tools ul li, .dropdown_services ul li {
     border-bottom: 1px solid #ccc;
   }
-  .dropdown ul li:last-child {
+  .dropdown_tools ul li:last-child, .dropdown_services ul li:last-child {
     border-bottom: none;
   }
 }
@@ -180,7 +181,7 @@ a.navbar-brand {
     padding: 10px 15px;
   }
 
-  .dropdown {
+  .dropdown_tools, .dropdown_services {
     padding: 10px 15px !important;
   }
 
@@ -194,14 +195,14 @@ div#carousel-example-generic {
     display: none;
 }
 
-.dropdown {
+.dropdown_tools, .dropdown_services {
     padding: 40px 30px;
     line-height: 29px;
     color: #777;
     font-weight: 600;
     font-size: 16px;
 }
-.dropdown span {
+.dropdown_tools span, .dropdown_services span {
   font-family: 'Exo 2', sans-serif;
 }
 
@@ -362,7 +363,7 @@ div#bs-example-navbar-collapse-1 {
     width: 100%;
   }
 
-  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage {
+  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .oculusRiftPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
     padding-top: 80px !important;
   }
 
@@ -375,7 +376,7 @@ div#bs-example-navbar-collapse-1 {
     display: block;
   }
 
-  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage {
+  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .oculusRiftPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
     padding-top: 150px; 
   }
 
@@ -390,13 +391,13 @@ div#bs-example-navbar-collapse-1 {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .dropdown {
+  .dropdown_tools, .dropdown_services {
     padding: 40px 10px !important;
   }
 }
 /*
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  .dropdown {
+  .dropdown_tools, .dropdown_services {
     padding: 15px;
   }
 }*/
@@ -532,11 +533,14 @@ a.right.carousel-control {
 /*Out Tools Section*/
 .container-fluid.our_tools_section {
   padding-top: 80px;
+
+}
+.container-fluid.our_tools_section, .container-fluid.our_services_section {
   padding-bottom: 80px;
   background-color: #e6e6e6;
 }
 
-#ourTools img {
+#ourTools img, #ourServices img {
     border-radius: 20px;
     -webkit-border-radius: 20px;
     padding: 10px 0;
@@ -550,7 +554,7 @@ a.right.carousel-control {
     -webkit-transition: 0.5s;
 }
 
-#ourTools img:hover {
+#ourTools img:hover, #ourServices img:hover {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transition: 0.5s;
@@ -561,7 +565,7 @@ a.right.carousel-control {
 .our-tools_title-button h4 {
   color: #ffffff;
 }
-.our_tools_section .more_button {
+.our_tools_section .more_button, .our_services_section .more_button {
   background-color: #f6710a; /*orange*/
     padding: 10px;
     border-radius: 50%;
@@ -586,6 +590,10 @@ a.right.carousel-control {
     color: #f6710a !important;
     transition: 0.5s;
 }
+
+.dropdown a:hover {
+  color: #f6710a;
+}
 /*.navbar-nav>li>a {
   font-size: 700;
 }*/
@@ -604,7 +612,7 @@ a.right.carousel-control {
   div#carousel-example-generic {
       margin-top: 60px;
   }
-  #ourTools .row  {
+  #ourTools .row, #ourServices .row  {
     max-width: 400px;
     margin: 0 auto;
   }
@@ -922,6 +930,15 @@ footer .container > .col-xs-12 {
 .title_info_options button:hover a {
   color: #f6710a;
   transition: 1s;
+}
+
+.main_slider_button:hover {
+  background-color: #ffffff !important;
+  border: 2px solid #f6710a;
+  transition: 1s;
+}
+.main_slider_button a:hover {
+  color: #f6710a !important;
 }
 
 
