@@ -2,7 +2,7 @@ a {
   text-decoration: none !important;
   /*font-size: 16px;*/
   font-family: 'Exo 2', sans-serif;
-  color: inherit;
+  /*color: inherit;*/
 }
 
 .navbar_active_menu_title {
@@ -66,10 +66,14 @@ img {
 
 }
 
+.btn a {
+  color: #ffffff;
+}
+
 
 @media screen and (max-width: 450px) {
-  .top_page_title h1 {
-    font-size: 32px;
+  .top_page_title h1, .contactPage h1 {
+    font-size: 32px !important;
   }
 }
 
@@ -78,12 +82,20 @@ img {
 }
 
 /*navbar*/
+/*Navigation Section*/
 .navbar {
     margin-bottom: 0px;
 }
 .navbar-nav>li>a {
     padding: 40px 15px;
     line-height: 29px;
+}
+i.fa.fa-angle-down {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative;
+    top: 1px;
+    font-weight: bold;
 }
 
 a.navbar-brand {
@@ -107,6 +119,11 @@ a.navbar-brand {
 
   #openTools.navbar_active_menu_title {
     color: inherit;
+  }
+
+  .navbar-collapse {
+    border-bottom: 5px solid #f6710a !important;
+    margin-bottom: -1px;
   }
 }
 
@@ -356,7 +373,10 @@ div#bs-example-navbar-collapse-1 {
 
 
 
-  a:hover {
+  .header_section a {
+    color: inherit;
+  }
+  .header_section a:hover {
     color: #f6710a !important; 
     transition: 0.5s;
   }
@@ -557,6 +577,10 @@ a.right.carousel-control {
 }
 
 
+.carousel-content img {
+  max-width: 500px;
+}
+
 
 /*Out Tools Section*/
 .container-fluid.our_tools_section {
@@ -628,9 +652,7 @@ a.right.carousel-control {
 }*/
 
 @media screen and (max-width: 767px) {
-  .secondNavbarHeader {
-    display: none;
-  }
+
   .container.header_section {
     padding: 0px 15px;
   }
@@ -642,6 +664,15 @@ a.right.carousel-control {
     margin: 0 auto;
   }
 
+}
+
+@media screen and (max-width: 991px) {
+  .secondNavbarHeader {
+    display: none;
+  }
+  .copyright_section {
+    text-align: center;
+  }
 }
 /*-------------------------------------*/
 
@@ -1260,8 +1291,11 @@ i.fa.fa-facebook-square {
     align-items: center;
     margin-top: 0px;
     background-color: rgba(50, 50, 50, 0.7);
-    width: 100%;
     height: 100%;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 46px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .contactHeader {
@@ -1295,7 +1329,7 @@ i.fa.fa-facebook-square {
 }
 @media screen and (max-width: 767px) {
   .contactHeader {
-    height: 350px;
+    height: 300px;
   }
   .contactPage {
     padding-top: 61px;
@@ -1673,53 +1707,28 @@ i.fa.fa-facebook-square {
 
 
 
-
-
-
-
-/*
-
-footer {
-  position: absolute;
-  top: calc(100% - 236px);
-  width: 100%;
-  bottom: 0
-}*/
-
-
-
-.changeFont {
-  color: green !important;
-  font-size: 20px !important;
-  background-color: blue !important;
+/*COMMON ACROSS MOST PAGES*/
+.page_description {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
+/*------------------------------------------------------------------*/
 
-ul.ersatz-dropdown-menu {
-    padding: 0px;
-    border-top: 5px solid #f6710a;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+
+/*------------------TOOLS PAGE-----------------*/
+.top_page_title p {
+  color: #818487;
 }
-.ersatz-dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 160px;
-    padding: 5px 0;
-    margin: 2px 0 0;
-    font-size: 14px;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,.175)
-}
+
+/*------------------------------------------------------------------*/
+
+
+
+/*------------------SERVICES PAGE-----------------*/
+/*------------------------------------------------------------------*/
+
+
+
+
