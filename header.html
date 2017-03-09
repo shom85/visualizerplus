@@ -20,9 +20,9 @@
                     <ul class="nav navbar-nav">
                         <li><a href="about.html" id="about">ABOUT</a></li>
                         <li>
-                            <div class="dropdown dropdown_tools">
+                            <div id="openTools" class="dropdown dropdown_tools">
                                 <a href="tools.html" id="openToolsPage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOOLS<span class="caret"></span></a>
-                                <ul class="dropdown-menu" aria-labelledby="" style="height: auto;">
+                                <ul class="dropdown-menu" aria-labelledby="" id="bad_dropdown1" style="height: auto;">
                                     <li class="nav-sublink">
                                         <a href="kitchen-visualizer.html">ROOM VISUALIZER</a>
                                     </li>
@@ -48,9 +48,9 @@
                             </div>
                         </li>
                         <li>
-                            <div class="dropdown dropdown_services">
+                            <div id="openServices" class="dropdown dropdown_services">
                                 <a href="services.html" id="openServicesPage" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICES<span class="caret"></span></a>
-                                <ul class="dropdown-menu" aria-labelledby="" style="height: auto;">
+                                <ul class="dropdown-menu" aria-labelledby="" id="bad_dropdown2" style="height: auto;">
                                     <li class="nav-sublink2">
                                         <a href="farm-rendering.html">FARM RENDERING</a>
                                     </li>
@@ -99,6 +99,26 @@
                 $(this).addClass('navbar_active_menu_title');
             }
         });
+
+        
+    });
+
+    $(function(){
+        var url = window.location.pathname, 
+        urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
+
+        $('#openToolsPage').each(function(){
+            if(urlRegExp.test(this.href.replace(/\/$/,''))){
+                $("#openTools").addClass('navbar_active_menu_title');
+            }
+        });
+
+        $('#openServicesPage').each(function(){
+            if(urlRegExp.test(this.href.replace(/\/$/,''))){
+                $("#openServices").addClass('navbar_active_menu_title');
+            }
+        });
+
     });
 
     $(function(){
@@ -127,12 +147,89 @@
 
     });
 
+
+    
+
+
+
+    // Specific links for Tools and Services Pages.
     $('#openToolsPage').click(function(){
       window.location = 'tools.html';
     });
     $('#openServicesPage').click(function(){
       window.location = 'services.html';
     });
+
+
+
+// $(".navbar-toggle").click(function(){
+   // $("#openTools").addClass("open"); 
+
+   $(".navbar-toggle").click(function(){
+
+       $("#openTools").addClass("open"); 
+    });
+
+   
+
+    var condenseMenus = function(){
+        // var els = $('ul').attr('aria-labelledby', '');
+        // Array.prototype.forEach.call(els, function(el, i) {
+        //     if (i > 0){
+        //          el.className = "";
+        //     };
+        // });
+        $('#bad_dropdown1')[0].className = "";
+        $('#bad_dropdown2')[0].className = "";
+    }
+
+    var normalizeMenus = function(){
+        // var els = $('ul').attr('aria-labelledby', '');
+        // Array.prototype.forEach.call(els, function(el, i) {
+        // if (i > 0){
+        //     el.className = "dropdown-menu";
+        // };
+        // });
+        $('#bad_dropdown1')[0].className = "dropdown-menu";
+        $('#bad_dropdown2')[0].className = "dropdown-menu";
+    }
+    $(document).ready(function(){
+        if ($(window).width() < 768){
+            condenseMenus();
+        }
+        else {
+            normalizeMenus();
+        }
+        $(window).resize(function(){
+            if ($(window).width() < 768){
+                condenseMenus();
+            }
+            else {
+                normalizeMenus();
+            }
+        })
+    })
+
+
+// if ($(window).width() < 768) {
+//     $(".dropdown.dropdown_tools").addClass("open");
+//     });
+//    // alert('Less than 960');
+// }
+
+
+
+// });
+
+
+
+                // $("#openTools").removeClass("open");
+
+
+
+
+
+
 </script> 
 
 
