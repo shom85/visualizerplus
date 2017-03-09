@@ -578,7 +578,14 @@ a.right.carousel-control {
 
 
 .carousel-content img {
-  max-width: 500px;
+
+  max-height: 300px;
+  object-fit: contain;
+}
+.carousel-content .col-sm-5 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -1086,7 +1093,7 @@ i.fa.fa-facebook-square {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 
   .accordion { height: auto; }
 
