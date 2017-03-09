@@ -279,13 +279,14 @@ div#bs-example-navbar-collapse-1 {
 
 #overlay_on_image:hover {
   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: rgba(0, 0, 0, 0);
-   transition: 1s;
-   filter: grayscale(0%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100%);
+  background-color: rgba(0, 0, 0, 0);
+  transition: 1s;
+  filter: grayscale(0%);
+  border-bottom: 7px solid #f6710a;
 }
 #overlay_on_image .title_info_options {
     opacity: 0.2;
@@ -965,7 +966,7 @@ i.fa.fa-facebook-square {
   transform: translateX(-15px);
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
-  padding-bottom: 30px;
+  /*padding-bottom: 30px;*/
 }
 
 .accordion ul li div h2 {
@@ -980,6 +981,8 @@ i.fa.fa-facebook-square {
   line-height: 47px;
   display: table-cell;
   vertical-align: bottom; 
+  padding-bottom: 30px;
+  text-shadow: 0px 0px 25px #000;
 }
 .title_info_options a {
     color: #ffffff;
@@ -1017,11 +1020,11 @@ i.fa.fa-facebook-square {
   font-size: 16px;
 
 }
-.accordion ul li:nth-child(1) { background-image: url("images/temp_image_01.png"); background-size: cover; }
+.accordion ul li:nth-child(1) { background-image: url("images/img.png"); background-size: cover; }
 
-.accordion ul li:nth-child(2) { background-image: url("images/temp_image_02.png"); background-size: cover; }
+.accordion ul li:nth-child(2) { background-image: url("images/img2.png"); background-size: cover; }
 
-.accordion ul li:nth-child(3) { background-image: url("images/temp_image_03.png"); background-size: cover; }
+.accordion ul li:nth-child(3) { background-image: url("images/img3.png"); background-size: cover; }
 .accordion ul li:nth-child(4) { background-image: url("images/main_slider_bg_004.jpg"); background-size: cover; }
 .accordion ul li:nth-child(5) { background-image: url("images/main_slider_bg_05.jpg"); background-size: cover; }
 .accordion ul li:nth-child(6) { background-image: url("images/main_slider_bg_06.jpg"); background-size: cover; }
