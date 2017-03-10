@@ -394,7 +394,7 @@ div#bs-example-navbar-collapse-1 {
 
   body:before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 35px;
     left: 0;
     width: 100%;
@@ -439,7 +439,7 @@ div#bs-example-navbar-collapse-1 {
 
   body:before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 85px;
     left: 0;
     width: 100%;
@@ -1587,24 +1587,24 @@ i.fa.fa-facebook-square {
 
 
 /*This stying reflects all the tool pages. */
-.second_row_tools_section {
+.second_row_section {
   background-color: #e6e6e6;
   color: #818487;
 }
-.third_row_tools_section {
+.third_row_section {
   background-color: #818486;
   color: #ffffff;
 }
 
-.second_row_tools_section .col-sm-6, .third_row_tools_section .col-sm-6 {
+.second_row_section .col-sm-6, .third_row_section .col-sm-6 {
   padding: 0px;
 }
-.second_row_tools_section img, .third_row_tools_section img {
+.second_row_section img, .third_row_section img {
   height: 600px;
   object-fit: cover;
 }
 
-.second_row_tools_section .text-left, .third_row_tools_section .text-left {
+.second_row_section .text-left, .third_row_section .text-left {
     max-width: 550px;
     margin: 0 auto;
     line-height: 25px;
@@ -1616,25 +1616,25 @@ i.fa.fa-facebook-square {
 
 
 @media screen and (min-width: 768px) {
-  .second_row_tools_section .row, .third_row_tools_section .row {
+  .second_row_section .row, .third_row_section .row {
     display: flex;
   }
-  .second_row_tools_section .text-left, .third_row_tools_section .text-left {
+  .second_row_section .text-left, .third_row_section .text-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .third_row_tools_section .row {
+  .third_row_section .row {
     flex-direction: row-reverse;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .second_row_tools_section img, .third_row_tools_section img {
+  .second_row_section img, .third_row_section img {
     height: 350px;
   }
 
-  .second_row_tools_section .text-left, .third_row_tools_section .text-left {
+  .second_row_section .text-left, .third_row_section .text-left {
     /*height: 350px;*/
     display: flex;
     flex-direction: column;
@@ -1646,12 +1646,12 @@ i.fa.fa-facebook-square {
 
 
 /*ABOUT PAGE, SECOND AND THIRD SECTION FONT STYLING - the styling reflects to all the other tool pages*/ 
-.about_second_section h3, .about_third_section h3, .second_row_tools_section h3, .third_row_tools_section h3 {
+.about_second_section h3, .about_third_section h3, .second_row_section h3, .third_row_section h3 {
     font-family: 'Exo 2', sans-serif;
     font-size: 24px;
     line-height: 36px;
 }
-.about_second_section p, .about_third_section p, .second_row_tools_section p, .third_row_tools_section p {
+.about_second_section p, .about_third_section p, .second_row_section p, .third_row_section p {
     font-family: 'Exo 2', sans-serif;
     -webkit-font-smoothing: antialiased;
     /*font-size: 16px;*/
