@@ -1805,11 +1805,13 @@ i.fa.fa-facebook-square {
 /*----------------- Styles for Filterable Portfolio -------------------*/
 
 ul#filter { 
-  float: left; 
-  font-size: 16px; 
-  list-style: none; 
-  margin-left: 0; 
-  width: 100%;
+    font-size: 16px;
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
 }
 ul#filter li { 
   border-right: 1px solid #dedede;
@@ -1829,10 +1831,10 @@ ul#filter li.current a { color: #333; font-weight: bold; }
 
 
 ul#portfolio { 
-  float: left; 
   list-style: none; 
-  margin-left: 0; 
-  width: 672px;
+  margin: 0 auto;
+  max-width: 868px;
+  text-align: center;
 }
 ul#portfolio li { 
   border: 1px solid #dedede; 
@@ -1847,6 +1849,6 @@ ul#portfolio a { display: block; width: 100%; }
 ul#portfolio a:hover { text-decoration: none; }
 ul#portfolio img { border: 1px solid #dedede; display: block; padding-bottom: 5px; }
 
-ul#portfolio li { margin-right: 5px; }
+/*ul#portfolio li { margin-right: 5px; }*/
 
 /*------------------------------------------------------------------------------*/
