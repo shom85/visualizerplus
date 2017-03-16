@@ -710,7 +710,7 @@ a.right.carousel-control {
   .secondNavbarHeader {
     display: none;
   }
-  .copyright_section {
+  .copyright_section, .get_in_touch_section {
     text-align: center;
   }
 }
@@ -794,6 +794,9 @@ a.right.carousel-control {
 .copyright_section p {
   font-size: 14px;
   letter-spacing: 0px;
+}
+.copyright_section a {
+  color: #818487;
 }
 
 .glyphicon {
@@ -1772,3 +1775,78 @@ i.fa.fa-facebook-square {
 /*------------------SERVICES PAGE-----------------*/
 /*------------------------------------------------------------------*/
 
+
+
+
+
+
+/*Navbar update with adding a menu*/
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .left_logo_section {
+    flex-direction: column;
+  }
+
+  .left_logo_section .secondNavbarHeader {
+    text-align: center;
+  }
+  
+  .navbar-nav>li>a, .dropdown_tools, .dropdown_services {
+    line-height: 55px;
+  }
+  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .oculusRiftPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
+    padding-top: 181px;
+  }
+}
+
+
+
+
+
+/*----------------- Styles for Filterable Portfolio -------------------*/
+
+ul#filter { 
+  float: left; 
+  font-size: 16px; 
+  list-style: none; 
+  margin-left: 0; 
+  width: 100%;
+}
+ul#filter li { 
+  border-right: 1px solid #dedede;
+  float: left;
+  line-height: 16px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+
+ul#filter li:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+ul#filter a { color: #999; text-decoration: none; }
+
+
+ul#filter li.current a, ul#filter a:hover { text-decoration: underline; }
+ul#filter li.current a { color: #333; font-weight: bold; }
+
+
+ul#portfolio { 
+  float: left; 
+  list-style: none; 
+  margin-left: 0; 
+  width: 672px;
+}
+ul#portfolio li { 
+  border: 1px solid #dedede; 
+  float: left; 
+  margin: 0 10px 10px 0; 
+  padding: 5px;
+  width: 202px;
+}
+
+
+ul#portfolio a { display: block; width: 100%; }
+ul#portfolio a:hover { text-decoration: none; }
+ul#portfolio img { border: 1px solid #dedede; display: block; padding-bottom: 5px; }
+
+ul#portfolio li { margin-right: 5px; }
+
+/*------------------------------------------------------------------------------*/
