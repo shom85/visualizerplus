@@ -1813,6 +1813,11 @@ i.fa.fa-facebook-square {
 
 
 /*----------------- Styles for Filterable Portfolio -------------------*/
+.portfolioPage .about_third_section {
+  background: linear-gradient( to right, #e8e8e8 0%, #e8e8e8 50%, #eeeeee 50%, #eeeeee 100% );
+}
+
+
 
 ul#filter { 
     list-style: none;
@@ -1961,6 +1966,18 @@ ul#portfolio li:hover span {
 
   }
 
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolioPage .custom_margin_right {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .portfolioPage .about_third_section .container {
+    width: 100%;
+  }
 }
 /*------------------------------------------------------------------------------*/
 
