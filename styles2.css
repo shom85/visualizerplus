@@ -409,7 +409,7 @@ div#bs-example-navbar-collapse-1 {
     width: 100%;
   }
 
-  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .oculusRiftPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
+  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .oculusRiftPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
     padding-top: 80px !important;
   }
 
@@ -454,7 +454,7 @@ div#bs-example-navbar-collapse-1 {
     display: block;
   }
 
-  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .oculusRiftPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
+  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .oculusRiftPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
     padding-top: 150px; 
   }
 
@@ -777,7 +777,7 @@ a.right.carousel-control {
 
 .get_in_touch_section .container {
     line-height: 40px;
-    padding: 40px 0;
+    padding: 25px 0;
     color: #ffffff;
 }
 .get_in_touch_section .container a {
@@ -787,7 +787,7 @@ a.right.carousel-control {
 
 .copyright_section .container {
   line-height: 40px;
-  padding: 40px 0;
+  padding: 25px 0;
   font-family: 'Exo 2', sans-serif;
   color: #818487;
 }
@@ -1803,7 +1803,7 @@ i.fa.fa-facebook-square {
   .navbar-nav>li>a, .dropdown_tools, .dropdown_services {
     line-height: 55px;
   }
-  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .oculusRiftPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
+  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .oculusRiftPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
     padding-top: 181px;
   }
 }
@@ -1829,9 +1829,32 @@ ul#filter li {
   background-color: #e6e6e6;
 }
 
+.portfolioPage .custom_margin_left h4, .portfolioPage .custom_margin_right h4 {
+  font-weight: 700;
+}
+
+.portfolioPage .custom_margin_left h1, .portfolioPage .custom_margin_right h1 {
+  text-align: left;
+  font-weight: 800;
+  font-size: 46px;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 0px;
+}
+
+.portfolio_view_more {
+  padding-top: 50px;
+}
+
+.portfolio_view_more .more_button {
+  background-color: #f6710a;
+  padding: 10px;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
 
 ul#filter li:last-child { border-right: none; margin-right: 0; /*padding-right: 0;*/ }
-ul#filter a { color: #818387; text-decoration: none; font-weight: 700; }
+ul#filter a { color: #818387; text-decoration: none; font-weight: 700;}
 
 
 ul#filter li.current a, ul#filter a:hover { text-decoration: underline; }
@@ -1891,6 +1914,7 @@ ul#portfolio li:hover span {
   transition: .2s;
 }
 
+
 /*ul#portfolio li { margin-right: 5px; }*/
 
 #portfolio span {
@@ -1910,7 +1934,33 @@ ul#portfolio li:hover span {
     flex-direction: column;
     align-items: center;
   }
+
 }
 
+
+@media screen and (max-width: 750px) {
+  
+
+  ul#filter {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+  }
+
+
+  ul#filter li {
+    width: 50%;
+    padding: 15px 0;
+    border-radius: 0px !important;
+  }
+
+  ul#filter li:first-child {
+
+  }
+
+}
 /*------------------------------------------------------------------------------*/
 
