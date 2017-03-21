@@ -1817,6 +1817,10 @@ i.fa.fa-facebook-square {
   background: linear-gradient( to right, #e8e8e8 0%, #e8e8e8 50%, #eeeeee 50%, #eeeeee 100% );
 }
 
+.portfolioPage .about_third_section h1 {
+  color: #ffffff;
+}
+
 
 
 ul#filter { 
@@ -1974,10 +1978,50 @@ ul#portfolio li:hover span {
   }
 }
 
-@media screen and (max-width: 1399px) {
+/*@media screen and (max-width: 1399px) {
   .portfolioPage .about_third_section .container {
     width: 100%;
   }
-}
+}*/
 /*------------------------------------------------------------------------------*/
 
+
+
+
+
+
+
+.portfolio_text {
+    position: relative;
+    top: 40px;
+    left: 0;
+    color: #ffffff;
+    padding-left: 75px; 
+}
+
+.portfolioPage .about_third_section .column_right div {
+  max-width: none;
+}
+
+/*.portfolioPage .about_third_section .column_right div, .portfolioPage .about_third_section .column_left div {
+  max-width: 100%;
+  margin: 0px 0px 0px 15px;
+}*/
+
+@media screen and (max-width: 767px) {
+  .portfolioPage .about_third_section {
+      background: linear-gradient( to bottom, rgba(129,131,135, 0.7) 0%, rgba(129,131,135, 0.7) 50%, rgba(129,131,135, 0.5) 50%, rgba(129,131,135, 0.5) 100% );
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolioPage .about_third_section {
+      background: linear-gradient( to right, rgba(129,131,135, 0.7) 0%, rgba(129,131,135, 0.7) 50%, rgba(129,131,135, 0.5) 50%, rgba(129,131,135, 0.5) 100% );
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1399px) {
+  .portfolioPage .about_third_section > div > .container {
+    width: 100%;
+  }
+}
