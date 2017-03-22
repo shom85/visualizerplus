@@ -401,7 +401,7 @@ div#bs-example-navbar-collapse-1 {
     height: 7px;
     -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
     -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
-    box-shadow: 0px 8px 96px rgba(0,0,0,0.7);
+    box-shadow: 0px 8px 96px rgba(0,0,0,1);
     z-index: 100;
   }
 
@@ -409,8 +409,12 @@ div#bs-example-navbar-collapse-1 {
     width: 100%;
   }
 
-  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .oculusRiftPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
+  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
     padding-top: 80px !important;
+  }
+
+  .oculusRiftPage {
+    padding-top: 60px;
   }
 
   .navbar-nav .open .dropdown-menu {
@@ -440,13 +444,13 @@ div#bs-example-navbar-collapse-1 {
   body:before {
     content: "";
     position: fixed;
-    top: 85px;
+    top: 100px;
     left: 0;
     width: 100%;
     height: 7px;
     -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
     -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
-    box-shadow: 0px 8px 96px rgba(0,0,0,0.7);
+    box-shadow: 0px 8px 96px rgba(0,0,0,1);
     z-index: 100;
   }
 
@@ -454,8 +458,13 @@ div#bs-example-navbar-collapse-1 {
     display: block;
   }
 
-  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .oculusRiftPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
+  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
     padding-top: 150px; 
+  }
+
+  /*All the services pages*/
+  .oculusRiftPage {
+    padding-top: 110px;
   }
 
 
@@ -1589,7 +1598,10 @@ i.fa.fa-facebook-square {
 
 
 
-/*This stying reflects all the tool pages. */
+/*This stying reflects all the tool pages, and some services pages also. */
+.first_row_section {
+  color: #818487;
+}
 .second_row_section {
   background-color: #e6e6e6;
   color: #818487;
@@ -1599,10 +1611,10 @@ i.fa.fa-facebook-square {
   color: #ffffff;
 }
 
-.second_row_section .col-sm-6, .third_row_section .col-sm-6 {
+.first_row_section .col-sm-6, .second_row_section .col-sm-6, .third_row_section .col-sm-6 {
   padding: 0px;
 }
-.second_row_section img, .third_row_section img {
+.first_row_section img, .second_row_section img, .third_row_section img {
   height: 600px;
   object-fit: cover;
 }
@@ -1619,7 +1631,7 @@ i.fa.fa-facebook-square {
 
 
 @media screen and (min-width: 768px) {
-  .second_row_section .row, .third_row_section .row {
+  .first_row_section .row, .second_row_section .row, .third_row_section .row {
     display: flex;
   }
   .second_row_section .text-left, .third_row_section .text-left {
@@ -1627,17 +1639,17 @@ i.fa.fa-facebook-square {
     flex-direction: column;
     justify-content: center;
   }
-  .third_row_section .row {
+  .first_row_section .row, .third_row_section .row {
     flex-direction: row-reverse;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .second_row_section img, .third_row_section img {
+  .first_row_section img, .second_row_section img, .third_row_section img {
     height: 350px;
   }
 
-  .second_row_section .text-left, .third_row_section .text-left {
+  .first_row_section .text-left, .second_row_section .text-left, .third_row_section .text-left {
     /*height: 350px;*/
     display: flex;
     flex-direction: column;
@@ -1783,6 +1795,49 @@ i.fa.fa-facebook-square {
 
 
 /*------------------SERVICES PAGE-----------------*/
+.individual_services_page .first_row_section {
+  background-color: none;
+}
+.individual_services_page .second_row_section {
+  background-color: #818486;
+  color: #ffffff;
+}
+.individual_services_page .third_row_section {
+  background-color: #e6e6e6;
+  color: #818487;
+}
+
+.individual_services_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.individual_services_title .top_page_title * {
+    text-align: left !important;
+}
+
+.individual_services_title .top_page_title {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+.individual_services_page .top_page_title h1 {
+    margin: 0px;
+}
+.individual_services_page .top_page_title h4 {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .individual_services_page .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+}
 /*------------------------------------------------------------------*/
 
 
@@ -1803,8 +1858,12 @@ i.fa.fa-facebook-square {
   .navbar-nav>li>a, .dropdown_tools, .dropdown_services {
     line-height: 55px;
   }
-  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .oculusRiftPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
+  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
     padding-top: 181px;
+  }
+
+  .oculusRiftPage {
+    padding-top: 135px;
   }
 }
 
@@ -1926,6 +1985,24 @@ ul#portfolio li:hover span {
 
 /*ul#portfolio li { margin-right: 5px; }*/
 
+.portfolio_text {
+    position: relative;
+    top: 40px;
+    left: 0;
+    color: #ffffff;
+    padding-left: 75px; 
+}
+
+.portfolioPage .about_third_section .column_right div {
+  max-width: none;
+}
+
+/*.portfolioPage .about_third_section .column_right div, .portfolioPage .about_third_section .column_left div {
+  max-width: 100%;
+  margin: 0px 0px 0px 15px;
+}*/
+
+
 #portfolio span {
   position: absolute;
   left: 15%;
@@ -1978,35 +2055,8 @@ ul#portfolio li:hover span {
   }
 }
 
-/*@media screen and (max-width: 1399px) {
-  .portfolioPage .about_third_section .container {
-    width: 100%;
-  }
-}*/
-/*------------------------------------------------------------------------------*/
 
 
-
-
-
-
-
-.portfolio_text {
-    position: relative;
-    top: 40px;
-    left: 0;
-    color: #ffffff;
-    padding-left: 75px; 
-}
-
-.portfolioPage .about_third_section .column_right div {
-  max-width: none;
-}
-
-/*.portfolioPage .about_third_section .column_right div, .portfolioPage .about_third_section .column_left div {
-  max-width: 100%;
-  margin: 0px 0px 0px 15px;
-}*/
 
 @media screen and (max-width: 767px) {
   .portfolioPage .about_third_section {
@@ -2027,3 +2077,7 @@ ul#portfolio li:hover span {
     width: 100%;
   }
 }
+
+
+
+/*------------------------------------------------------------------------------*/
