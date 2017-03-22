@@ -409,11 +409,11 @@ div#bs-example-navbar-collapse-1 {
     width: 100%;
   }
 
-  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
+  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage {
     padding-top: 80px !important;
   }
 
-  .oculusRiftPage {
+  .oculusRiftPage, .customGooglesPage, .customThreeDToolsPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage {
     padding-top: 60px;
   }
 
@@ -458,12 +458,12 @@ div#bs-example-navbar-collapse-1 {
     display: block;
   }
 
-  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
+  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage {
     padding-top: 150px; 
   }
 
   /*All the services pages*/
-  .oculusRiftPage {
+  .oculusRiftPage, .customGooglesPage, .customThreeDToolsPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage {
     padding-top: 110px;
   }
 
@@ -476,9 +476,11 @@ div#bs-example-navbar-collapse-1 {
     overflow: scroll;
   }
 
-
-
 }
+
+
+
+
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .dropdown_tools, .dropdown_services {
@@ -491,6 +493,37 @@ div#bs-example-navbar-collapse-1 {
     padding: 15px;
   }
 }*/
+
+
+
+
+/*Navbar update with adding a menu*/
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .left_logo_section {
+    flex-direction: column;
+  }
+
+  .left_logo_section .secondNavbarHeader {
+    text-align: center;
+  }
+
+  .logoText {
+    padding: 0px;
+    margin-left: -25px;
+  }
+  
+  .navbar-nav>li>a, .dropdown_tools, .dropdown_services {
+    line-height: 55px;
+  }
+  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage {
+    padding-top: 181px;
+  }
+
+  .oculusRiftPage, .customGooglesPage, .customThreeDToolsPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage {
+    padding-top: 135px;
+  }
+}
+
 
 
 
@@ -642,8 +675,8 @@ a.right.carousel-control {
 }
 
 #ourTools img, #ourServices img {
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
+    /*border-radius: 20px;*/
+    /*-webkit-border-radius: 20px;*/
     padding: 10px 0;
     width: 100%;
     object-fit: cover;
@@ -669,7 +702,7 @@ a.right.carousel-control {
 .our_tools_section .more_button, .our_services_section .more_button {
   background-color: #f6710a; /*orange*/
     padding: 10px;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     color: #ffffff;
     margin-top: 5px;
     right: 20px;
@@ -879,11 +912,11 @@ i.fa.fa-facebook-square {
 
 /*-------------MAIN SLIDER SECTION-------------*/
 .main_slider_button {
-    width: 130px !important;
+    width: 115px !important;
     background: #f6710a !important;
-    border-radius: 30px !important;
+    /*border-radius: 30px !important;*/
     text-align: center !important;
-    padding: 15px 15px !important;
+    padding: 10px 15px !important;
     margin-bottom: 30px !important;
 }
 
@@ -1175,7 +1208,7 @@ i.fa.fa-facebook-square {
   .accordion ul li div a {
     padding-bottom: 0px;
   }
-  .accordion ul li div p, .main_slider_button {
+  .accordion ul li div p, #overlay_on_image .main_slider_button {
     display: none !important;
   }
   
@@ -1184,7 +1217,7 @@ i.fa.fa-facebook-square {
   }
 
   #overlay_on_image {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
   }
   #overlay_on_image .title_info_options {
     opacity: 1;
@@ -1289,7 +1322,8 @@ i.fa.fa-facebook-square {
     color: #fff;
     background-color: #f6710a;
     border: 2px solid #f6710a;
-    border-radius: 25px;
+    /*border-radius: 25px;*/
+    border-radius: 0px;
     transition: 1s;
 }
 .btn-primary:hover {
@@ -1615,7 +1649,8 @@ i.fa.fa-facebook-square {
   padding: 0px;
 }
 .first_row_section img, .second_row_section img, .third_row_section img {
-  height: 600px;
+  /*height: 600px;*/
+  height: 512px;
   object-fit: cover;
 }
 
@@ -1796,7 +1831,7 @@ i.fa.fa-facebook-square {
 
 /*------------------SERVICES PAGE-----------------*/
 .individual_services_page .first_row_section {
-  background-color: none;
+  background-color: #ffffff;
 }
 .individual_services_page .second_row_section {
   background-color: #818486;
@@ -1818,10 +1853,12 @@ i.fa.fa-facebook-square {
 }
 
 .individual_services_title .top_page_title {
-    padding: 50px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    width: 100%;
+    max-width: 550px;
+    padding: 50px 30px;
   }
 
 .individual_services_page .top_page_title h1 {
@@ -1839,35 +1876,6 @@ i.fa.fa-facebook-square {
 
 }
 /*------------------------------------------------------------------*/
-
-
-
-
-
-
-/*Navbar update with adding a menu*/
-@media screen and (min-width: 992px) and (max-width: 1400px) {
-  .left_logo_section {
-    flex-direction: column;
-  }
-
-  .left_logo_section .secondNavbarHeader {
-    text-align: center;
-  }
-  
-  .navbar-nav>li>a, .dropdown_tools, .dropdown_services {
-    line-height: 55px;
-  }
-  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .customThreeDToolsPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage, .customGooglesPage {
-    padding-top: 181px;
-  }
-
-  .oculusRiftPage {
-    padding-top: 135px;
-  }
-}
-
-
 
 
 
@@ -1916,7 +1924,7 @@ ul#filter li {
 .portfolio_view_more .more_button {
   background-color: #f6710a;
   padding: 10px;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   color: #ffffff;
 }
 
@@ -1990,7 +1998,7 @@ ul#portfolio li:hover span {
     top: 40px;
     left: 0;
     color: #ffffff;
-    padding-left: 75px; 
+    padding-left: 50px; 
 }
 
 .portfolioPage .about_third_section .column_right div {
