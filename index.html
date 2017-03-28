@@ -261,7 +261,7 @@
 
     </div>
     <!-- ================== END OF SLIDER SECTION ================== -->
-
+<a href="#top">SOME LINK</a>
 
     <!-- ============================ Our Tools/Services Section ============================== -->
     <!-- OUR TOOLS -->
@@ -582,6 +582,11 @@ $(function () {
   $('[data-toggle="popover"]').popover()
 });
 
+
+$("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
 
 // if ($(window).width() < 768) {
 //     $(".dropdown.dropdown_tools").addClass("open");
