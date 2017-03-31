@@ -2151,7 +2151,7 @@ ul#portfolio li:hover span {
 }
 
 .portfolioPage .carousel-inner>.item>a>img, .portfolioPage .carousel-inner>.item>img {
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
     max-width: 1500px;
     height: 100%;
@@ -2215,14 +2215,24 @@ ul#portfolio li:hover span {
 }
 
 @media screen and (min-width: 768px) {
-.portfolioPage .carousel-control .glyphicon-chevron-left, .portfolioPage .carousel-control .glyphicon-chevron-right, .portfolioPage .carousel-control .icon-next, .portfolioPage .carousel-control .icon-prev {
-    width: 30px;
-    height: 30px;
-    margin-top: -10px;
-    font-size: 50px;
-}
+  .portfolioPage .carousel-control .glyphicon-chevron-left, .portfolioPage .carousel-control .glyphicon-chevron-right, .portfolioPage .carousel-control .icon-next, .portfolioPage .carousel-control .icon-prev {
+      width: 30px;
+      height: 30px;
+      margin-top: -10px;
+      font-size: 50px;
+  }
   
+}
+
+@media screen and (max-width: 1500px) and (orientation: landscape) {
+  .portfolioPage .carousel-inner>.item>a>img, .portfolioPage .carousel-inner>.item>img {
+      height: calc(100vh - 80px);
+  }
 }
 
 
 /*------------------------------------------------------------------------------*/
+
+
+
+
