@@ -641,10 +641,6 @@ a.right.carousel-control {
   padding-bottom: 20px;
 }
 
-.carousel-inner {
-      background-image: url(images/vizualizerplus_pattern.jpg);
-}
-
 .carousel-inner .item p {
     color: #818487;
     line-height: 37px;
@@ -689,7 +685,7 @@ a.right.carousel-control {
 
 }
 .container-fluid.our_tools_section, .container-fluid.our_services_section {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   background-color: #e6e6e6;
 }
 
@@ -1907,6 +1903,11 @@ i.fa.fa-facebook-square {
 
 
 /*----------------- Styles for Filterable Portfolio -------------------*/
+
+.portfolioPage .carousel-inner {
+      background-image: url(images/vizualizerplus_pattern2.jpg);
+}
+
 .portfolioPage .about_third_section {
   background: linear-gradient( to right, #e8e8e8 0%, #e8e8e8 50%, #eeeeee 50%, #eeeeee 100% );
 }
