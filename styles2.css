@@ -641,6 +641,10 @@ a.right.carousel-control {
   padding-bottom: 20px;
 }
 
+.carousel-inner {
+      background-image: url(images/vizualizerplus_pattern.jpg);
+}
+
 .carousel-inner .item p {
     color: #818487;
     line-height: 37px;
