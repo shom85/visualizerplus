@@ -721,6 +721,12 @@ a.right.carousel-control {
     color: #ffffff;
     margin-top: 5px;
     right: 20px;
+    transition: 1s;
+}
+span.glyphicon.glyphicon-chevron-right.more_button:hover {
+    background: #ffffff;
+    color: #f6710a;
+    transition: 1s;
 }
 .our-tools_title-button {
     margin-top: -85px;
@@ -1940,13 +1946,14 @@ ul#filter li {
 }
 ul#portfolio li div p {
   position: absolute;
-  bottom: 25px;
+  bottom: 0px;
   color: #ffffff;
-  text-align: left;
-  left:35px;
+  text-align: center;
+  left: 0;
   font-weight: 600;
   text-shadow: 2px 0px 9px #000;
-  padding-right: 15px;
+  padding: 30px;
+  width: 100%;
 }
 
 .portfolioPage .custom_margin_left h4, .portfolioPage .custom_margin_right h4 {
@@ -2153,6 +2160,7 @@ ul#portfolio li:hover span {
 }
 
 .portfolioPage .modal-content {
+  border: none;
   border-radius: 0px;
   width: 100%;
   max-width: 1500px;
