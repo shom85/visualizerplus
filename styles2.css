@@ -1,8 +1,8 @@
 a {
   text-decoration: none !important;
   /*font-size: 16px;*/
-  font-family: 'Exo 2', sans-serif;
-  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Exo 2', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
   /*color: inherit;*/
 }
 
@@ -19,8 +19,8 @@ a {
 }
 
 p {
-  font-family: 'Exo 2', sans-serif;
-  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Exo 2', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 18px;
   letter-spacing: 1.3px;
@@ -29,15 +29,15 @@ p {
 }
 
 h1 {
-  font-family: 'Exo 2', sans-serif;
-  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Exo 2', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #818487;
   /*margin-bottom: 20px;*/
 }
 h2, h3, h4 {
-  font-family: 'Exo 2', sans-serif;
-  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Exo 2', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
 }
 img {
   width: 100%;
@@ -55,16 +55,16 @@ img {
 
 .top_page_title h1 {
     text-transform: uppercase;
-    font-family: 'Exo 2', sans-serif;
-    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Exo 2', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 46px;
     -webkit-font-smoothing: antialiased;
 }
 .top_page_title h4 {
     text-transform: uppercase;
-    font-family: 'Exo 2', sans-serif;
-    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Exo 2', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     text-align: center;
     color: #818487;
@@ -227,8 +227,8 @@ div#carousel-example-generic {
     font-size: 16px;
 }
 .dropdown_tools span, .dropdown_services span {
-  font-family: 'Exo 2', sans-serif;
-  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Exo 2', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar .media {
@@ -636,8 +636,8 @@ a.right.carousel-control {
 .logoText {
   padding: 10px 30px;
   color: #818487;
-  font-family: 'Exo 2', sans-serif;
-  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Exo 2', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   font-weight: 800;
@@ -661,8 +661,8 @@ a.right.carousel-control {
 .carousel-inner .item p {
     color: #818487;
     line-height: 37px;
-    font-family: 'Exo 2', sans-serif;
-    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Exo 2', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
 }
 .carousel-inner .item a {
   border-bottom: 1px solid #818487;
@@ -861,15 +861,15 @@ span.glyphicon.glyphicon-chevron-right.more_button:hover {
 }
 .get_in_touch_section .container a {
   color: #ffffff;
-  font-family: 'Exo 2', sans-serif;
-  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Exo 2', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
 }
 
 .copyright_section .container {
   line-height: 40px;
   padding: 25px 0;
-  font-family: 'Exo 2', sans-serif;
-  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Exo 2', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
   color: #818487;
 }
 .copyright_section p {
@@ -1066,8 +1066,8 @@ i.fa.fa-facebook-square {
   box-sizing: border-box;
   color: #fff;
   text-decoration: none;
-  font-family: 'Exo 2', sans-serif;
-  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Exo 2', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
   transition: all 200ms ease;
 }
 
@@ -1088,8 +1088,8 @@ i.fa.fa-facebook-square {
 }
 
 .accordion ul li div h2 {
-  font-family: 'Exo 2', sans-serif;
-  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Exo 2', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
   text-overflow: clip;
   /*font-size: 24px;*/
   font-size: 50px;
@@ -1703,8 +1703,8 @@ i.fa.fa-facebook-square {
     margin: 0 auto;
     line-height: 25px;
     padding: 30px;
-    font-family: 'Exo 2', sans-serif;
-    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Exo 2', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
 
 }
@@ -1742,14 +1742,14 @@ i.fa.fa-facebook-square {
 
 /*ABOUT PAGE, SECOND AND THIRD SECTION FONT STYLING - the styling reflects to all the other tool pages*/ 
 .about_second_section h3, .about_third_section h3, .second_row_section h3, .third_row_section h3 {
-    font-family: 'Exo 2', sans-serif;
-    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Exo 2', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     line-height: 36px;
 }
 .about_second_section p, .about_third_section p, .second_row_section p, .third_row_section p {
-    font-family: 'Exo 2', sans-serif;
-    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Exo 2', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
     /*font-size: 16px;*/
     line-height: 27px;
@@ -1796,8 +1796,8 @@ i.fa.fa-facebook-square {
   background-color: #f6710a;
   color: white;
   font-size: 25px;
-  font-family: 'Exo 2', sans-serif;
-  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Exo 2', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
   padding: 16px 32px;
   border-radius: 50px;
 }
@@ -2017,7 +2017,7 @@ ul#portfolio {
   margin: 0 auto;
   text-align: center;
   padding-top: 75px;
-  padding-bottom: 75px;
+  padding-bottom: 25px;
 }
 ul#portfolio li { 
   padding: 15px;
@@ -2270,6 +2270,24 @@ ul#portfolio li:hover span {
 
 
 /*------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+#portfolio li{ display:none;}
+/*#filter li{ display:none;}*/
+
+
+
+
+
+
+
 
 
 
