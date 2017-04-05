@@ -2172,7 +2172,7 @@ ul#portfolio li:hover span {
 
 .portfolioPage .carousel-inner>.item>a>img, .portfolioPage .carousel-inner>.item>img {
     object-fit: contain;
-    width: 100%;
+    width: 101%;
     max-width: 1500px;
     height: 100%;
     /*max-height: 1000px;*/
