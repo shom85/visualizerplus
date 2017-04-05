@@ -396,6 +396,23 @@ div#bs-example-navbar-collapse-1 {
       transition: 0.5s;
   }
 
+  .first_tool_image {
+    padding: 50px 0;
+    margin: 0 auto;
+  }
+
+  .middle_tool_image {
+    padding: 0 0 50px 0;
+    margin: 0 auto;
+    margin-top: -50px;
+  }
+
+  .last_tool_image {
+    padding: 0 0 50px 0;
+    margin: 0 auto;
+    margin-top: -50px;
+  }
+
 
 @media screen and (max-width: 767px) {
 
