@@ -1,3 +1,6 @@
+body {
+  letter-spacing: 0.5px;
+}
 a {
   text-decoration: none !important;
   /*font-size: 16px;*/
@@ -23,7 +26,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 18px;
-  letter-spacing: 1.3px;
+  letter-spacing: .5px;
   font-weight: 200;
   line-height: 27px;
 }
@@ -58,7 +61,7 @@ img {
     /*font-family: 'Exo 2', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    font-size: 46px;
+    font-size: 50px;
     -webkit-font-smoothing: antialiased;
 }
 .top_page_title h4 {
@@ -93,7 +96,7 @@ img {
     margin-bottom: 0px;
 }
 .navbar-nav>li>a {
-    padding: 40px 15px;
+    padding: 40px 6px;
     line-height: 29px;
 }
 i.fa.fa-angle-down {
@@ -396,23 +399,6 @@ div#bs-example-navbar-collapse-1 {
       transition: 0.5s;
   }
 
-  .first_tool_image {
-    padding: 50px 0;
-    margin: 0 auto;
-  }
-
-  .middle_tool_image {
-    padding: 0 0 50px 0;
-    margin: 0 auto;
-    margin-top: -50px;
-  }
-
-  .last_tool_image {
-    padding: 0 0 50px 0;
-    margin: 0 auto;
-    margin-top: -50px;
-  }
-
 
 @media screen and (max-width: 767px) {
 
@@ -656,6 +642,7 @@ a.right.carousel-control {
   color: #818487;
   font-weight: 600;
   padding-bottom: 20px;
+  letter-spacing: .5px;
 }
 
 .carousel-inner .item p {
@@ -951,11 +938,11 @@ i.fa.fa-facebook-square {
 
 /*-------------MAIN SLIDER SECTION-------------*/
 .main_slider_button {
-    width: 115px !important;
+    width: 150px !important;
     background: #f6710a !important;
     /*border-radius: 30px !important;*/
     text-align: center !important;
-    padding: 10px 15px !important;
+    padding: 15px !important;
     margin-bottom: 30px !important;
 }
 
@@ -1085,6 +1072,7 @@ i.fa.fa-facebook-square {
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
   /*padding-bottom: 30px;*/
+  letter-spacing: 1px;
 }
 
 .accordion ul li div h2 {
@@ -1602,7 +1590,7 @@ i.fa.fa-facebook-square {
 }
 
 .about_second_section img {
-  max-height: 500px;
+  /*max-height: 500px;*/
   object-fit: cover;
 }
 
@@ -1671,6 +1659,15 @@ i.fa.fa-facebook-square {
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  .about_second_section img {
+    width: 145%;
+    position: relative;
+    right: 20%;
+    max-height: none;
+  }
+
+
 }
 /*------------------------------------------------------------*/
 
@@ -1725,7 +1722,7 @@ i.fa.fa-facebook-square {
 }
 
 @media screen and (max-width: 767px) {
-  .first_row_section img, .second_row_section video, .second_row_section iframe, .third_row_section img {
+  .first_row_section img, .second_row_section img, .second_row_section video, .second_row_section iframe, .third_row_section img {
     height: 350px !important;
   }
 
@@ -1771,9 +1768,13 @@ i.fa.fa-facebook-square {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  box-shadow: 30px 30px 70px #cecece;
+  border-radius: 15px;
+  margin: 25px auto !important;
+  width: 90%;
 }
 
-.middle {
+.middle, .middle2, .middle3 {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -1800,6 +1801,13 @@ i.fa.fa-facebook-square {
   font-family: 'Montserrat', sans-serif;
   padding: 16px 32px;
   border-radius: 50px;
+}
+
+@media screen and (max-width: 577px) {
+  .text {
+    font-size: 20px;
+    padding: 16px 20px;
+  }
 }
 /*------------------------------------------------------------*/
 
@@ -1871,6 +1879,13 @@ i.fa.fa-facebook-square {
 /*------------------TOOLS PAGE-----------------*/
 .top_page_title p {
   color: #818487;
+}
+
+.tool_image {
+  margin: 0 auto;
+}
+.tool_image:last-child {
+  padding-bottom: 50px;
 }
 
 /*------------------------------------------------------------------*/
