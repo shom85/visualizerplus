@@ -36,7 +36,10 @@
 
 </head>
 
-<body class="aircraftVisualizerPage">
+<body class="aircraftVisualizerPage" style=" background-image: url(images/vizualizerplus_pattern2.jpg);
+    background-position: center;
+    background-attachment: fixed !important;
+">
 
     <!-- -------------------- HEADER SECTION -------------------- -->
     <div id="header"></div>
@@ -70,7 +73,7 @@
     <div class="container-fluid second_row_section">
         <div class="row">
             <div class="col-sm-6 parallax-left parallax" style="
-            background-image: url(images/aircraft_visualizer3.jpg) !important;
+            background: url(images/aircraft_visualizer3.jpg) !important;
             background-attachment: fixed !important;
             background-position: 100% center !important;
             background-repeat: no-repeat !important;
@@ -112,7 +115,7 @@
     [].slice.call(parallax).forEach(function(el,i){
 
       var windowYOffset = window.pageYOffset,
-          elBackgrounPos = "100%" + (windowYOffset * speed) + "px";
+          elBackgrounPos = "50%" + (windowYOffset * speed) + "px";
 
       el.style.backgroundPosition = elBackgrounPos;
 
