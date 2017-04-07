@@ -3436,8 +3436,7 @@
     <div class="container-fluid about_third_section" style="padding: 0px;">
       <!-- <div style="background-image: url(images/portfolio_left_image.png); background-repeat: no-repeat; background-position: calc(50% - 400px);"> -->
 
-      <div style=";
-    z-index: 100;">
+      <divz>
           <div class="container">
               <div class="row">
                   <div class="col-sm-6" style="padding: 0px; position: relative; height: 300px;">
@@ -3532,11 +3531,9 @@ $(document).ready(function() {
   });
 });
 
-
-
 $(document).ready(function () {
-  size_li = $("#portfolio li");
-  x=12;
+  var size_li = $("#portfolio li");
+  var x=12;
   $('#portfolio li:lt('+x+')').show();
   $('#loadMore').click(function() {
       x = x + 8;

@@ -730,6 +730,7 @@ a.right.carousel-control {
 span.glyphicon.glyphicon-chevron-right.more_button:hover {
     background: #ffffff;
     color: #f6710a;
+    border: 1px solid #f6710a;
     transition: 1s;
 }
 .our-tools_title-button {
@@ -2057,7 +2058,7 @@ ul#portfolio a {
 }
 ul#portfolio a:hover { 
   text-decoration: none;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 ul#portfolio img { 
   display: block;
@@ -2292,18 +2293,49 @@ ul#portfolio li:hover span {
 
 
 
-
+/*Styles for the load more option on Portfolio page*/
 
 #portfolio li{ display:none;}
 /*#filter li{ display:none;}*/
 
 
+.aircraftVisualizerPage .parallax-left  {
+    background-image: url(images/aircraft_visualizer2.jpg);
+}
+.aircraftVisualizerPage .parallax-right  {
+    background-image: url(images/aircraft_interior2.jpg);
+}
+.virtualMakeoverPage .parallax-left {
+  background-image: url(images/makeover_visualizer3.jpg);
+}
+
+.parallax-left {
+    background-attachment: fixed;
+    background-position: 25% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-right {
+    background-attachment: fixed;
+    background-position: 75% bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
+@media screen and (max-width: 767px) {
+  .parallax-left, .parallax-right {
+    background-position: center;
+  }
 
+  .aircraftVisualizerPage .parallax-left {
+    background-image: url(images/aircraft_visualizer.jpg);
+  }
+  .aircraftVisualizerPage .parallax-right {
+      background-image: url(images/aircraft_interior.jpg);
+  }
+  .virtualMakeoverPage .parallax-left {
+  background-image: url(images/makeover_visualizer.jpg);
+}
 
-
-
-
-
-
+}
