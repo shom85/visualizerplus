@@ -70,11 +70,11 @@
     <div class="container-fluid second_row_section">
         <div class="row">
             <div class="col-sm-6 parallax-left parallax" style="
-            background-image: url(images/aircraft_visualizer3.jpg) !important;
+            background-image: url(images/vizualizerplus_pattern2.jpg) !important;
             background-attachment: fixed !important;
             background-position: 0 0;
-            background-repeat: no-repeat !important;
-            background-size: cover !important;">
+            background-repeat: repeat !important;
+            background-size: 200px !important;">
                 <img src="images/aircraft_visualizer3.jpg" alt="Aircraft Exterior Image" style="visibility: hidden;">
             </div>
             <div class="col-sm-6 text-left column_right">
@@ -106,13 +106,13 @@
 (function(){
 
   var parallax = document.querySelectorAll(".parallax"),
-      speed = 0.01;
+      speed = 0.5;
 
   window.onscroll = function(){
     [].slice.call(parallax).forEach(function(el,i){
 
       var windowYOffset = window.pageYOffset,
-          elBackgrounPos = "0%" + (windowYOffset * speed) + "px";
+          elBackgrounPos = "0px" + (windowYOffset * speed) + "px";
 
       el.style.backgroundPosition = elBackgrounPos;
 
