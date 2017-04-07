@@ -69,12 +69,7 @@
 
     <div class="container-fluid second_row_section">
         <div class="row">
-            <div class="col-sm-6 parallax-left parallax" style="
-            background-image: url(images/aircraft_visualizer3.jpg) !important;
-            background-attachment: fixed !important;
-            background-position: center;
-            background-repeat: repeat;
-            background-size: 100% 100%;">
+            <div class="col-sm-6 parallax-left parallax" style="">
                 <img src="images/aircraft_visualizer3.jpg" alt="Aircraft Exterior Image" style="visibility: hidden;">
             </div>
             <div class="col-sm-6 text-left column_right">
@@ -96,6 +91,9 @@
         </div>
     </div>
 
+
+
+
 <!-- ================================== Footer Section ==================================== -->
 <div id="footer"></div>
 <!-- ============================== End of Footer Section ================================= -->
@@ -103,24 +101,27 @@
 </body>
 
 <script>
-(function(){
+// (function(){
 
-  var parallax = document.querySelectorAll(".parallax"),
-      speed = 0.5;
+//   var parallax = document.querySelectorAll(".parallax"),
+//       speed = 0.5;
 
-  window.onscroll = function(){
-    [].slice.call(parallax).forEach(function(el,i){
+//   window.onscroll = function(){
+//     [].slice.call(parallax).forEach(function(el,i){
 
-      var windowYOffset = window.pageXOffset,
-          elBackgrounPos = "10%" + (windowYOffset * speed) + "px";
+//       var windowYOffset = window.pageXOffset,
+//           elBackgrounPos = "10%" + (windowYOffset * speed) + "px";
 
-      el.style.backgroundPosition = elBackgrounPos;
+//       el.style.backgroundPosition = elBackgrounPos;
 
-    });
-  };
+//     });
+//   };
 
-})();
+// })();
 </script>
+
+<!-- // look into this for resizing the height -->
+<!-- https://www.google.com/webhp?sourceid=chrome-instant&rlz=1C5CHFA_enUS734US735&ion=1&espv=2&ie=UTF-8#q=jquery+height+and+width -->
 
 </html>
 

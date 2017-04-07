@@ -419,7 +419,7 @@ div#bs-example-navbar-collapse-1 {
     width: 100%;
   }
 
-  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage {
+  .virtualKitchenPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage {
     padding-top: 80px !important;
   }
 
@@ -468,7 +468,7 @@ div#bs-example-navbar-collapse-1 {
     display: block;
   }
 
-  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage {
+  .virtualKitchenPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage {
     padding-top: 150px; 
   }
 
@@ -525,7 +525,7 @@ div#bs-example-navbar-collapse-1 {
   .navbar-nav>li>a, .dropdown_tools, .dropdown_services {
     line-height: 55px;
   }
-  .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage {
+  .virtualKitchenPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage {
     padding-top: 181px;
   }
 
@@ -2298,8 +2298,10 @@ ul#portfolio li:hover span {
 #portfolio li{ display:none;}
 /*#filter li{ display:none;}*/
 
-
-/*.aircraftVisualizerPage .parallax-left  {
+.virtualKitchenPage .parallax-left {
+  background-image: url(images/kitchen_visualizer2.jpg);
+}
+.aircraftVisualizerPage .parallax-left  {
     background-image: url(images/aircraft_visualizer2.jpg);
 }
 .aircraftVisualizerPage .parallax-right  {
@@ -2307,6 +2309,31 @@ ul#portfolio li:hover span {
 }
 .virtualMakeoverPage .parallax-left {
   background-image: url(images/makeover_visualizer2.jpg);
+}
+
+.virtualCarPage .parallax-left  {
+    background-image: url(images/car_exterior_visualizer2.jpg);
+}
+.virtualCarPage .parallax-right  {
+    background-image: url(images/car_interior_visualizer2.jpg);
+}
+.watercraftVisualizerPage .parallax-left  {
+    background-image: url(images/watercraft_exterior_visualizer2.jpg);
+}
+.watercraftVisualizerPage .parallax-right  {
+    background-image: url(images/watercraft_interior_visualizer2.jpg);
+}
+.virtualManicurePage .parallax-left {
+  background-image: url(images/manicure_visualizer2.jpg);
+}
+.outfitVisualierPage .parallax-left {
+  background-image: url(images/outfit_visualizer2.jpg);
+}
+
+
+
+.parallax-left img, .parallax-right img {
+  visibility: hidden;
 }
 
 .parallax-left {
@@ -2325,10 +2352,13 @@ ul#portfolio li:hover span {
 
 @media screen and (max-width: 767px) {
   .parallax-left, .parallax-right {
-    background-position: center !important;
-    background-attachment: fixed !important;
+    background-position: center;
+    background-attachment: fixed;
   }
 
+  .virtualKitchenPage .parallax-left {
+    background-image: url(images/kitchen_visualizer.jpg);
+  }
   .aircraftVisualizerPage .parallax-left {
     background-image: url(images/aircraft_visualizer3.jpg);
   }
@@ -2338,5 +2368,23 @@ ul#portfolio li:hover span {
   .virtualMakeoverPage .parallax-left {
     background-image: url(images/makeover_visualizer.jpg);
   }
+  .virtualCarPage .parallax-left  {
+    background-image: url(images/car_exterior_visualizer.png);
+  }
+  .virtualCarPage .parallax-right  {
+      background-image: url(images/car_interior_visualizer.jpg);
+  }
+  .watercraftVisualizerPage .parallax-left  {
+    background-image: url(images/watercraft_exterior_visualizer.jpg);
+  }
+  .watercraftVisualizerPage .parallax-right  {
+      background-image: url(images/watercraft_interior_visualizer.jpg);
+  }
+  .virtualManicurePage .parallax-left {
+    background-image: url(images/manicure_visualizer.jpg);
+  }
+  .outfitVisualierPage .parallax-left {
+    background-image: url(images/outfit_visualizer.jpg);
+  }
 
-}*/
+}
