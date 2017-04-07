@@ -2306,7 +2306,7 @@ ul#portfolio li:hover span {
     background-image: url(images/aircraft_interior2.jpg);
 }
 .virtualMakeoverPage .parallax-left {
-  background-image: url(images/makeover_visualizer3.jpg);
+  background-image: url(images/makeover_visualizer2.jpg);
 }
 
 .parallax-left {
@@ -2329,7 +2329,7 @@ ul#portfolio li:hover span {
   }
 
   .aircraftVisualizerPage .parallax-left {
-    background-image: url(images/aircraft_visualizer.jpg);
+    background-image: url(images/aircraft_visualizer3.jpg);
   }
   .aircraftVisualizerPage .parallax-right {
       background-image: url(images/aircraft_interior.jpg);
