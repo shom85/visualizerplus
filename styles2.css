@@ -2323,7 +2323,7 @@ ul#portfolio li:hover span {
 }
 
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
   .parallax-left, .parallax-right {
     background-position: center;
   }
@@ -2335,7 +2335,7 @@ ul#portfolio li:hover span {
       background-image: url(images/aircraft_interior.jpg);
   }
   .virtualMakeoverPage .parallax-left {
-  background-image: url(images/makeover_visualizer.jpg);
-}
-
+    background-image: url(images/makeover_visualizer.jpg);
+  }
+*/
 }
