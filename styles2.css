@@ -2310,22 +2310,23 @@ ul#portfolio li:hover span {
 }
 
 .parallax-left {
-    background-attachment: fixed !important;
+    background-attachment: fixed;
     background-position: 25% center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .parallax-right {
-    background-attachment: fixed !important;
+    background-attachment: fixed;
     background-position: 75% bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
-/*@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .parallax-left, .parallax-right {
-    background-position: center;
+    background-position: center !important;
+    background-attachment: fixed !important;
   }
 
   .aircraftVisualizerPage .parallax-left {
@@ -2337,5 +2338,5 @@ ul#portfolio li:hover span {
   .virtualMakeoverPage .parallax-left {
     background-image: url(images/makeover_visualizer.jpg);
   }
-*/
+
 }
