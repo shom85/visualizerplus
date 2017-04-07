@@ -72,7 +72,7 @@
             <div class="col-sm-6 parallax-left parallax" style="
             background-image: url(images/aircraft_visualizer3.jpg);
             background-attachment: fixed;
-            background-position: center;
+            background-position: 100% center;
             background-repeat: no-repeat;
             background-size: cover;">
                 <img src="images/aircraft_visualizer.jpg" alt="Aircraft Exterior Image" style="visibility: hidden;">
@@ -112,7 +112,7 @@
     [].slice.call(parallax).forEach(function(el,i){
 
       var windowYOffset = window.pageYOffset,
-          elBackgrounPos = "50%" + (windowYOffset * speed) + "px";
+          elBackgrounPos = "100%" + (windowYOffset * speed) + "px";
 
       el.style.backgroundPosition = elBackgrounPos;
 
