@@ -2350,7 +2350,7 @@ ul#portfolio li:hover span {
     background-attachment: fixed;
     background-position: 50% 0;
     background-repeat: repeat;
-    background-size: cover;
+    background-size: aut 140%;
 }
 .parallax-right {
     background-attachment: fixed;
