@@ -21,7 +21,7 @@ a {
     color: #ffffff !important;
 }
 
-p {
+p, ol {
   /*font-family: 'Exo 2', sans-serif;*/
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -419,7 +419,7 @@ div#bs-example-navbar-collapse-1 {
     width: 100%;
   }
 
-  .virtualKitchenPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage {
+  .virtualKitchenPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .termsPage {
     padding-top: 80px !important;
   }
 
@@ -468,7 +468,7 @@ div#bs-example-navbar-collapse-1 {
     display: block;
   }
 
-  .virtualKitchenPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage {
+  .virtualKitchenPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .termsPage {
     padding-top: 150px; 
   }
 
@@ -525,7 +525,7 @@ div#bs-example-navbar-collapse-1 {
   .navbar-nav>li>a, .dropdown_tools, .dropdown_services {
     line-height: 55px;
   }
-  .virtualKitchenPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage {
+  .virtualKitchenPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .termsPage {
     padding-top: 181px;
   }
 
@@ -1878,7 +1878,7 @@ i.fa.fa-facebook-square {
 
 
 /*------------------TOOLS PAGE-----------------*/
-.top_page_title p {
+.top_page_title p, ol {
   color: #818487;
 }
 
@@ -2369,7 +2369,7 @@ ul#portfolio li:hover span {
     background-image: url(images/makeover_visualizer.jpg);
   }
   .virtualCarPage .parallax-left  {
-    background-image: url(images/car_exterior_visualizer.png);
+    background-image: url(images/car_exterior_visualizer.jpg);
   }
   .virtualCarPage .parallax-right  {
       background-image: url(images/car_interior_visualizer.jpg);
@@ -2387,4 +2387,18 @@ ul#portfolio li:hover span {
     background-image: url(images/outfit_visualizer.jpg);
   }
 
+}
+
+
+
+
+
+
+/*Terms and Conditions Page css*/
+.termsPageContent {
+  padding: 40px 30px;
+}
+
+.termsPageContent li {
+  padding-bottom: 10px;
 }
