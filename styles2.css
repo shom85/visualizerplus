@@ -701,7 +701,7 @@ a.right.carousel-control {
     object-fit: cover;
     max-width: 400px;
     min-height: 250px;
-    max-height: 400px;
+    max-height: 300px;
 
     transition: 0.5s;
     -webkit-transition: 0.5s;
@@ -2204,7 +2204,7 @@ ul#portfolio li:hover span {
 }
 
 .portfolioPage .carousel-inner>.item>a>img, .portfolioPage .carousel-inner>.item>img {
-    object-fit: contain;
+    object-fit: cover;
     width: 101%;
     max-width: 1500px;
     height: 100%;
@@ -2258,7 +2258,8 @@ ul#portfolio li:hover span {
 
 @media screen and (max-height: 500px) {
   .portfolioPage .modal-dialog {
-    max-width: 75%;
+    /*max-width: 75%;*/
+    max-width: 100%;
   }
 }
 
@@ -2297,6 +2298,10 @@ ul#portfolio li:hover span {
 
 #portfolio li{ display:none;}
 /*#filter li{ display:none;}*/
+
+
+
+
 
 .virtualKitchenPage .parallax-left {
   background-image: url(images/kitchen_visualizer2.jpg);
