@@ -2020,12 +2020,12 @@ ul#filter a { color: #818387; text-decoration: none; font-weight: 700;}
 ul#filter li.current a, ul#filter a:hover { text-decoration: underline; }
 ul#filter li.current, ul#filter li.current a { color: #ffffff; font-weight: bold; background-color: #f6710a; }
 
-ul#filter li:first-child {
+/*ul#filter li:first-child {
   border-radius: 50px 0 0 50px;
 } 
 ul#filter li:last-child {
   border-radius: 0px 50px 50px 0px;
-}   
+}  */ 
 
 
 ul#portfolio { 
@@ -2135,9 +2135,9 @@ ul#portfolio li:hover span {
     border-radius: 0px !important;
   }
 
-  ul#filter li:first-child {
+  /*ul#filter li:first-child {
     width: 100%;
-  }
+  }*/
 
 }
 
@@ -2258,8 +2258,7 @@ ul#portfolio li:hover span {
 
 @media screen and (max-height: 500px) {
   .portfolioPage .modal-dialog {
-    /*max-width: 75%;*/
-    max-width: 100%;
+    max-width: 75%;
   }
 }
 
