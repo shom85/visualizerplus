@@ -2262,6 +2262,12 @@ ul#portfolio li:hover span {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .portfolioPage .modal-footer h3 {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .specific_image_scale {
     height: 350px;
@@ -2343,14 +2349,14 @@ ul#portfolio li:hover span {
 .parallax-left {
     background-attachment: fixed;
     background-position: 25% center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
 }
 .parallax-right {
     background-attachment: fixed;
     background-position: 75% bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 
