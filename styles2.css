@@ -2361,10 +2361,10 @@ ul#portfolio li:hover span {
 
 
 @media screen and (max-width: 767px) {
-  .parallax-left, .parallax-right {
+  /*.parallax-left, .parallax-right {
     background-position: center;
     background-attachment: fixed;
-  }
+  }*/
 
   .virtualKitchenPage .parallax-left {
     background-image: url(images/kitchen_visualizer.jpg);
