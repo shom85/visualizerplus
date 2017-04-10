@@ -2348,13 +2348,13 @@ ul#portfolio li:hover span {
 
 .parallax-left {
     background-attachment: fixed;
-    background-position: 25% center;
+    background-position: 50% 0;
     background-repeat: repeat;
     background-size: cover;
 }
 .parallax-right {
     background-attachment: fixed;
-    background-position: 75% bottom;
+    background-position: 50% 0;
     background-repeat: repeat;
     background-size: cover;
 }
