@@ -419,7 +419,7 @@ div#bs-example-navbar-collapse-1 {
     width: 100%;
   }
 
-  .virtualKitchenPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .termsPage {
+  .virtualRoomPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .termsPage {
     padding-top: 80px !important;
   }
 
@@ -468,7 +468,7 @@ div#bs-example-navbar-collapse-1 {
     display: block;
   }
 
-  .virtualKitchenPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .termsPage {
+  .virtualRoomPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .termsPage {
     padding-top: 150px; 
   }
 
@@ -525,7 +525,7 @@ div#bs-example-navbar-collapse-1 {
   .navbar-nav>li>a, .dropdown_tools, .dropdown_services {
     line-height: 55px;
   }
-  .virtualKitchenPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .termsPage {
+  .virtualRoomPage, .virtualCarPage, .aboutPage, .newsPage, .aircraftVisualizerPage, .virtualMakeoverPage, .watercraftVisualizerPage, .virtualManicurePage, .outfitVisualierPage, .toolsPage, .servicesPage, .portfolioPage, .termsPage {
     padding-top: 181px;
   }
 
@@ -1192,7 +1192,7 @@ i.fa.fa-facebook-square {
 
 @media screen and (max-width: 1250px) {
   .accordion ul li div h2 {
-    font-size: 50px;
+    font-size: 45px;
   }
   .accordion ul li div {
     padding: 15px 30px;
@@ -1201,7 +1201,7 @@ i.fa.fa-facebook-square {
 
 @media screen and (min-width: 601px) and (max-width: 915px) {
   .accordion ul li div h2 {
-    font-size: 35px !important;
+    font-size: 30px !important;
   }
 }
 
@@ -2308,8 +2308,11 @@ ul#portfolio li:hover span {
 
 
 
-.virtualKitchenPage .parallax-left {
-  background-image: url(images/kitchen_visualizer2.jpg);
+.virtualRoomPage .parallax-left {
+  background-image: url(images/room_visualizer2.jpg);
+}
+.virtualRoomPage .parallax-right {
+  background-image: url(images/room_visualizer2_2nd.jpg);
 }
 .aircraftVisualizerPage .parallax-left  {
     background-image: url(images/aircraft_visualizer2.jpg);
@@ -2366,8 +2369,11 @@ ul#portfolio li:hover span {
     background-attachment: fixed;
   }
 
-  .virtualKitchenPage .parallax-left {
-    background-image: url(images/kitchen_visualizer.jpg);
+  .virtualRoomPage .parallax-left {
+    background-image: url(images/room_visualizer.jpg);
+  }
+  .virtualRoomPage .parallax-right {
+    background-image: url(images/room_visualizer_2nd.jpg);
   }
   .aircraftVisualizerPage .parallax-left {
     background-image: url(images/aircraft_visualizer3.jpg);
