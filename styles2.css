@@ -2359,7 +2359,7 @@ ul#portfolio li:hover span {
     background-attachment: fixed;
     background-position: 75% bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 
 
