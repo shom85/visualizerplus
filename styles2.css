@@ -2375,9 +2375,9 @@ ul#portfolio li:hover span {
   .virtualRoomPage .parallax-right {
     background-image: url(images/room_visualizer_2nd.jpg);
   }
-  .aircraftVisualizerPage .parallax-left {
+/*  .aircraftVisualizerPage .parallax-left {
     background-image: url(images/aircraft_visualizer3.jpg);
-  }
+  }*/
   .aircraftVisualizerPage .parallax-right {
       background-image: url(images/aircraft_interior.jpg);
   }
