@@ -2315,7 +2315,7 @@ ul#portfolio li:hover span {
   background-image: url(images/room_visualizer2_2nd.jpg);
 }
 .aircraftVisualizerPage .parallax-left  {
-    background-image: url(images/aircraft_visualizer.jpg);
+    background-image: url(images/aircraft_visualizer2.jpg);
 }
 .aircraftVisualizerPage .parallax-right  {
     background-image: url(images/aircraft_interior2.jpg);
@@ -2359,7 +2359,7 @@ ul#portfolio li:hover span {
     background-attachment: fixed;
     background-position: 75% bottom;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 
@@ -2375,12 +2375,12 @@ ul#portfolio li:hover span {
   .virtualRoomPage .parallax-right {
     background-image: url(images/room_visualizer_2nd.jpg);
   }
-/*  .aircraftVisualizerPage .parallax-left {
+  .aircraftVisualizerPage .parallax-left {
     background-image: url(images/aircraft_visualizer3.jpg);
-  }*/
-/*  .aircraftVisualizerPage .parallax-right {
+  }
+  .aircraftVisualizerPage .parallax-right {
       background-image: url(images/aircraft_interior.jpg);
-  }*/
+  }
   .virtualMakeoverPage .parallax-left {
     background-image: url(images/makeover_visualizer.jpg);
   }
