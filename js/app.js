@@ -8,21 +8,7 @@ $(function() {
 
 
 
-    // Specific links for Tools and Services Pages. When Tools or Services is clicked on the menu, this page opens up. 
-    $('#openToolsPage').click(function(){
-      window.location = 'tools.html';
-    });
-    $('#openServicesPage').click(function(){
-      window.location = 'services.html';
-    });
 
-    // $(".navbar-toggle").click(function(){
-   // $("#openTools").addClass("open"); 
-
-   $(".navbar-toggle").click(function(){
-
-       $("#openTools").addClass("open"); 
-    });
 
 });
 
