@@ -16,6 +16,14 @@ $(function() {
       window.location = 'services.html';
     });
 
+    // $(".navbar-toggle").click(function(){
+   // $("#openTools").addClass("open"); 
+
+   $(".navbar-toggle").click(function(){
+
+       $("#openTools").addClass("open"); 
+    });
+
 });
 
     $(function(){
@@ -83,13 +91,7 @@ $(function() {
 
 
 
-// $(".navbar-toggle").click(function(){
-   // $("#openTools").addClass("open"); 
 
-   $(".navbar-toggle").click(function(){
-
-       $("#openTools").addClass("open"); 
-    });
 
    
 
