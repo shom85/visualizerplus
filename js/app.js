@@ -94,7 +94,7 @@ $(function() {
 
 
    
-
+$(function(){
     var condenseMenus = function(){
         // var els = $('ul').attr('aria-labelledby', '');
         // Array.prototype.forEach.call(els, function(el, i) {
@@ -130,9 +130,10 @@ $(function() {
             else {
                 normalizeMenus();
             }
-        })
-    })
+        });
+    });
 
+});
 
 // if ($(window).width() < 768) {
 //     $(".dropdown.dropdown_tools").addClass("open");
