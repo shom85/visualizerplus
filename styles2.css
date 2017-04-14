@@ -12,10 +12,10 @@ a {
 .navbar_active_menu_title {
   border-bottom: 5px solid #f6710a;
   margin-bottom: -5px;
-  color: #f6710a;
+  color: #f6710a !important;
 }
 .navbar_active_submenu_title {
-  color: #f6710a;
+  color: #f6710a !important;
 }
 .dropdown-menu>li>a:hover {
     color: #ffffff !important;
