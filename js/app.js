@@ -19,10 +19,10 @@ $(function() {
     // $(".navbar-toggle").click(function(){
    // $("#openTools").addClass("open"); 
 
-   $(".navbar-toggle").click(function(){
+   // $(".navbar-toggle").click(function(){
 
-       $("#openTools").addClass("open"); 
-    });
+   //     $("#openTools").addClass("open"); 
+   //  });
 
 });
 
