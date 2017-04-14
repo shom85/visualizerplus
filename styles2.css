@@ -2436,3 +2436,9 @@ ul#portfolio li:hover span {
     padding: 3px;
   }
 }
+
+
+#homePage .navbar_active_menu_title {
+  color: #818487 !important;
+  border-radius: none !important;
+}
