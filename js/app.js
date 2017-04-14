@@ -19,72 +19,14 @@ $(function() {
     // $(".navbar-toggle").click(function(){
    // $("#openTools").addClass("open"); 
 
-   // $(".navbar-toggle").click(function(){
+   $(".navbar-toggle").click(function(){
 
-   //     $("#openTools").addClass("open"); 
-   //  });
+       $("#openTools").addClass("open"); 
+    });
 
 });
 
-    $(function(){
-        var url = window.location.pathname, 
-        urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
 
-        $('.navbar-nav > li > a').each(function(){
-            if(urlRegExp.test(this.href.replace(/\/$/,''))){
-                $(this).addClass('navbar_active_menu_title');
-            }
-        });
-
-        
-    });
-
-    $(function(){
-        var url = window.location.pathname, 
-        urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
-
-        $('#openToolsPage').each(function(){
-            if(urlRegExp.test(this.href.replace(/\/$/,''))){
-                $("#openTools").addClass('navbar_active_menu_title');
-            }
-        });
-
-        $('#openServicesPage').each(function(){
-            if(urlRegExp.test(this.href.replace(/\/$/,''))){
-                $("#openServices").addClass('navbar_active_menu_title');
-            }
-        });
-
-    });
-
-    $(function(){
-        var url = window.location.pathname, 
-        urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
-
-        $('.nav-sublink a').each(function(){
-            if(urlRegExp.test(this.href.replace(/\/$/,''))){
-                $(this).addClass('navbar_active_submenu_title');
-                $(".dropdown_tools").addClass('navbar_active_menu_title');
-            }
-        });
-
-    });
-
-    $(function(){
-        var url = window.location.pathname, 
-        urlRegExp = new RegExp(url.replace(/\/$/,'') + "$");
-
-        $('.nav-sublink2 a').each(function(){
-            if(urlRegExp.test(this.href.replace(/\/$/,''))){
-                $(this).addClass('navbar_active_submenu_title');
-                $(".dropdown_services").addClass('navbar_active_menu_title');
-            }
-        });
-
-    });
-
-
-    
 
 
 
