@@ -227,8 +227,8 @@ div#carousel-example-generic {
     /*padding: 40px 30px;*/
     /*line-height: 29px;*/
     color: #777;
-    font-weight: 800;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 18px;
 }
 .dropdown_tools span, .dropdown_services span {
   /*font-family: 'Exo 2', sans-serif;*/
@@ -753,8 +753,8 @@ span.glyphicon.glyphicon-chevron-right.more_button:hover {
 /*NavBar*/
 .navbar-default .navbar-nav>li>a {
   color: #818487;
-  font-weight: 800;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 
