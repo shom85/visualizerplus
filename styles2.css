@@ -737,9 +737,24 @@ a.right.carousel-control {
     /*border-radius: 50%;*/
     color: #ffffff;
     margin-top: 5px;
-    right: 20px;
+    right: 15px;
     transition: 1s;
 }
+
+/*@media screen and (min-width: 1200px) and max-width: 1399px) {
+  .our_tools_section .more_button, .our_services_section .more_button {
+    right: 15px !important;
+  }
+}*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  span.glyphicon.glyphicon-chevron-right.more_button {
+    right: 30px !important;
+  }
+}
+
+
+
+
 span.glyphicon.glyphicon-chevron-right.more_button:hover {
     background: #ffffff;
     color: #f6710a;
@@ -980,7 +995,7 @@ i.fa.fa-facebook-square {
     width: 100px !important;
     transform: rotate(-90deg) !important;
     margin-left: -50px !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
     /*margin-bottom: calc(50vh - 150px) !important;*/
     /*text-shadow: 0px 0px 25px #000;*/
 }
