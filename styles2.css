@@ -432,7 +432,7 @@ div#bs-example-navbar-collapse-1 {
     padding-top: 80px !important;
   }
 
-  .oculusRiftPage, .customGooglesPage, .customThreeDToolsPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage {
+  .oculusRiftPage, .customGooglesPage, .customThreeDToolsPage, .farmRenderingPage, .ultraRealisticRendersPage, .threeDScanningPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage {
     padding-top: 60px;
   }
 
@@ -482,7 +482,7 @@ div#bs-example-navbar-collapse-1 {
   }
 
   /*All the services pages*/
-  .oculusRiftPage, .customGooglesPage, .customThreeDToolsPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage {
+  .oculusRiftPage, .customGooglesPage, .customThreeDToolsPage, .farmRenderingPage, .ultraRealisticRendersPage, .threeDScanningPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage {
     padding-top: 110px;
   }
 
@@ -542,7 +542,7 @@ div#bs-example-navbar-collapse-1 {
     padding-top: 181px;
   }
 
-  .oculusRiftPage, .customGooglesPage, .customThreeDToolsPage, .farmRenderingPage, .ultraRealisticPhotosPage, .threeDScanningPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage {
+  .oculusRiftPage, .customGooglesPage, .customThreeDToolsPage, .farmRenderingPage, .ultraRealisticRendersPage, .threeDScanningPage, .threeSixtyVRPage, .realisticThreeDAnimationsPage, .graphicDesignPage {
     padding-top: 135px;
   }
 }*/
@@ -741,11 +741,11 @@ a.right.carousel-control {
     transition: 1s;
 }
 
-/*@media screen and (min-width: 1200px) and max-width: 1399px) {
-  .our_tools_section .more_button, .our_services_section .more_button {
-    right: 15px !important;
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  span.glyphicon.glyphicon-chevron-right.more_button {
+    right: 20px !important;
   }
-}*/
+}
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   span.glyphicon.glyphicon-chevron-right.more_button {
     right: 30px !important;
