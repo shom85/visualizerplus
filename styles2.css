@@ -1168,6 +1168,29 @@ i.fa.fa-facebook-square {
 }
 .accordion ul li:nth-child(1) { background-image: url("images/img1.jpg"); background-size: cover; }
 
+
+@media screen and (min-width: 651px) {
+  #firstOption {
+    width: 50%;
+  }
+  #firstOption .overlay_on_image {
+    /*filter: grayscale(0);
+    background-color: transparent;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100%);
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: 1s;
+    filter: grayscale(0%);
+    border-bottom: 7px solid #f6710a;
+  }
+  #firstOption > .overlay_on_image > .title_info_options {
+      opacity: inherit;
+  }
+}
+
 .accordion ul li:nth-child(2) { background-image: url("images/img2.jpg"); background-size: cover; }
 
 .accordion ul li:nth-child(3) { background-image: url("images/img3.jpg"); background-size: cover; }
@@ -2492,18 +2515,3 @@ ul#portfolio li:hover span {
   color: #818487 !important;
 }
 
-
-
-
-
-.firstOption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: calc(100%);
-    background-color: rgba(0, 0, 0, 0.2);
-    transition: 1s;
-    filter: grayscale(0%);
-    border-bottom: 7px solid #f6710a;
-}

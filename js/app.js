@@ -130,42 +130,18 @@ $(function(){
 });
 
 
-    // $(".navbar-toggle").click(function(){
-   // $("#openTools").addClass("open"); 
-
-   $(".navbar-toggle").click(function(){
+    $(".navbar-toggle").click(function(){
 
        $("#openTools").addClass("open"); 
     });
 
 
 $(document).ready(function(){
-    
-    //on load:
-    
-    // $(".firstOption").addClass("overlay_on_image:hover");
-    
 
 
-    //if 
-   // $(".overlay_on_image:first-child").click(function() {
-    // $(".firstOption").toggleClass("overlay_on_image:hover");
-   // });
+    $(".overlay_on_image").hover(function() {
+        // console.log("Hello");
+        $("li").removeAttr("id");
+    });
 
 });
-
-
-// if ($(window).width() < 768) {
-//     $(".dropdown.dropdown_tools").addClass("open");
-//     });
-//    // alert('Less than 960');
-// }
-
-
-
-// });
-
-
-
-                // $("#openTools").removeClass("open");
-
