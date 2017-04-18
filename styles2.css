@@ -1978,6 +1978,10 @@ i.fa.fa-facebook-square {
     flex-direction: column-reverse;
   }
 
+  .added_video video {
+    margin-bottom: -5px;
+  }
+
 }
 /*------------------------------------------------------------------*/
 
