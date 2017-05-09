@@ -1,4 +1,3 @@
-
 <?php
 
 $name = $_POST['name'];
@@ -83,4 +82,4 @@ function IsInjected($str)
   }
 }
 
-?> 
+?>
