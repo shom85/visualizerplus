@@ -2,10 +2,38 @@
     <div class="container more_tools_section">
 	    <h4 class="section-title">MORE ABOUT <span style="color: #f6710a;">VISUALIZER+</span></h4>
 	    <div class="row col-sm-12 col-md-6">
-	        
+	    		<div class="threesixty toaster">
+				    <div class="spinner">
+				        <span>0%</span>
+				    </div>
+				    <ol class="threesixty_images"></ol>
+				</div>	        
 	    </div>
 	    <div class="row col-sm-12 col-md-6">
 
 	    </div>
     </div>
 </div>
+
+<script type="text/javascript">
+	window.onload = init;
+
+	var car;
+	function init(){
+
+	    car = $('.toaster').ThreeSixty({
+	        totalFrames: 52, // Total no. of image you have for 360 slider
+	        endFrame: 52, // end frame for the auto spin animation
+	        currentFrame: 1, // This the start frame for auto spin
+	        imgList: '.threesixty_images', // selector for image list
+	        progress: '.spinner', // selector to show the loading progress
+	        imagePath:'assets/toaster/', // path of the image assets
+	        filePrefix: '', // file prefix if any
+	        ext: '.jpg', // extention for the assets
+	        height: 1000,
+	        width: 447,
+	        navigation: true
+	    });
+
+	}
+</script>
