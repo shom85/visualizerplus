@@ -2520,6 +2520,8 @@ ul#portfolio li:hover span {
 
 
 /*styles within iframe*/
-.tools_style {
-  overflow: scroll !important;
-}
+@media screen and (max-width: 1399px) {
+            .h_iframe .ratio{
+                height: 100vh !important;
+            }
+        }

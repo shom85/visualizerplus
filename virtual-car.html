@@ -97,7 +97,7 @@
                     <div class="h_iframe">
                         <!-- a transparent image is preferable -->
                         <img class="ratio" src="http://placehold.it/16x9"/>
-                        <iframe src="http://housetipster.com:9005/virtual-room/tesla-exterior" allowfullscreen></iframe>
+                        <iframe id="virtualCar_iframe" src="http://housetipster.com:9005/virtual-room/tesla-exterior"></iframe>
                     </div>
                 </div>
             </div>
@@ -142,7 +142,15 @@
 <div id="footer"></div>
 <!-- ============================== End of Footer Section ================================= -->
 
+
 </body>
+<script type="text/javascript">
+    $(document).ready( function () {
+        if ($(window).width() <= 1399) {
+            $('#virtualCar_iframe').content().find(".visualiser").css("width","150px");
+        }
+    });
+</script>
 
 </html>
 
