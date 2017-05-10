@@ -2515,3 +2515,11 @@ ul#portfolio li:hover span {
   color: #818487 !important;
 }
 
+
+
+
+
+/*styles within iframe*/
+.tools_style {
+  overflow: scroll !important;
+}
