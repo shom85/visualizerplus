@@ -1166,7 +1166,6 @@ i.fa.fa-facebook-square {
   font-size: 16px;
 
 }
-.accordion ul li:nth-child(1) { background-image: url("images/img1.jpg"); background-size: cover; }
 
 
 @media screen and (min-width: 651px) {
@@ -1191,9 +1190,10 @@ i.fa.fa-facebook-square {
   }
 }
 
-.accordion ul li:nth-child(2) { background-image: url("images/img2.jpg"); background-size: cover; }
+.accordion ul li:nth-child(1) { background-image: url("images/img1.jpg"); background-size: cover; }
+.accordion ul li:nth-child(2) { background-image: url("images/img2a.jpg"); background-size: cover; }
 
-.accordion ul li:nth-child(3) { background-image: url("images/img3.jpg"); background-size: cover; }
+.accordion ul li:nth-child(3) { background-image: url("images/img3a.jpg"); background-size: cover; }
 .accordion ul li:nth-child(4) { background-image: url("images/main_slider_bg_004.jpg"); background-size: cover; }
 .accordion ul li:nth-child(5) { background-image: url("images/main_slider_bg_05.jpg"); background-size: cover; }
 .accordion ul li:nth-child(6) { background-image: url("images/main_slider_bg_06.jpg"); background-size: cover; }
