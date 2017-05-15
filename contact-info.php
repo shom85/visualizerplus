@@ -20,7 +20,7 @@ if(IsInjected($visitor_email))
 
 
 
-$to = "shomit@marble.com";
+$to = "info@visualizerplus.com";
 $subject = "Visualizer Plus - Contact information submission";
 
 // Always set content-type when sending HTML email
