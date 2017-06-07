@@ -1,0 +1,23 @@
+{
+  "name": "Visualizer Plus",
+  "homepage": "https://github.com/shom85/visualizerplus",
+  "authors": [
+    "Shomit Naik"
+  ],
+  "description": "Virtual Reality Tools and Services",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "threesixty-slider": "^2.0.5",
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}

@@ -2521,7 +2521,54 @@ ul#portfolio li:hover span {
 
 /*styles within iframe*/
 @media screen and (max-width: 1399px) {
-            .h_iframe .ratio{
-                height: 100vh !important;
-            }
-        }
+    .h_iframe .ratio{
+        height: 100vh !important;
+    }
+}
+
+
+
+
+
+
+
+/*360 Spinners*/
+.more_tools_section > .row {
+  margin: 0px;
+}
+
+.threesixty.stool {
+  height: 300px !important;
+}
+.threesixty.stool .threesixty_images img.current-image {
+    height: 300px;
+    object-fit: cover;
+}
+
+.threesixty.toaster {
+    height: 300px !important;
+}
+.toaster .threesixty_images li {
+  height: 300px;
+  display: table;
+}
+.toaster .threesixty_images li > img {
+      display: table-cell;
+    vertical-align: middle;
+    height: 300px;
+    object-fit: contain;
+}
+
+.threesixty.mercedes_white {
+    height: 300px !important;
+}
+.mercedes_white .threesixty_images li {
+  height: 300px;
+  display: table;
+}
+.mercedes_white .threesixty_images li > img {
+      display: table-cell;
+    vertical-align: middle;
+    height: 300px;
+    object-fit: contain;
+}
