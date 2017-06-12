@@ -2524,6 +2524,7 @@ ul#portfolio li:hover span {
   margin: 0 auto;
   overflow: scroll;
   padding: 0px;
+  max-height: 75vh;
 }
 
 .tool_image .modal-header {
