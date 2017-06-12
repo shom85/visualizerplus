@@ -188,6 +188,9 @@ a.navbar-brand {
   .dropdown_tools ul li:last-child, .dropdown_services ul li:last-child {
     border-bottom: none;
   }
+  .navbar-fixed-top {
+    height: 83px;
+  }
   .navbar_active_menu_title {
     margin-bottom: -25px;
   }
