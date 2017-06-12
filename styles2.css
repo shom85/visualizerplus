@@ -131,7 +131,7 @@ span.glyphicon.glyphicon-chevron-right.more_button:hover {
 }
 
 .navbar-nav {
-  margin-bottom: -25px;
+  /*margin-bottom: -25px;*/
 }
 #homePage .navbar-nav {
   margin-bottom: 0px;
@@ -189,7 +189,7 @@ a.navbar-brand {
     border-bottom: none;
   }
   .navbar_active_menu_title {
-    margin-bottom: 19px;
+    margin-bottom: -25px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -475,6 +475,9 @@ ul.dropdown-menu {
     overflow: hidden;
   }
 
+  .navbar-default .navbar-nav>li>a {
+    margin-bottom: -25px;
+  }
 }
 
 
