@@ -2487,11 +2487,11 @@ ul#portfolio li:hover span {
 
 
 /*Applied this specifically so all the menu text don't get highlighted*/
-#homePage .navbar_active_menu_title {
+.navbar_active_menu_title {
   color: #818487 !important;
   border-bottom: 5px solid transparent !important;
 }
-#homePage .navbar_active_submenu_title {
+.navbar_active_submenu_title {
   color: #818487 !important;
 }
 
