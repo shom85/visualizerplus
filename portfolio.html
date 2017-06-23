@@ -3623,6 +3623,23 @@ $(document).ready(function () {
 // });
 
 
+$('body').on('hidden.bs.modal', '.modal', function () {
+  $('video').trigger('pause');
+});
+// $('body').on('shown.bs.modal', '.modal', function () {
+//   $('video').trigger('play');
+// });
+
+
+// $(document).ready(function() {
+//   if $('ul#portfolio a').click(function{
+//     $('video').trigger('play');
+//   }
+//   else {
+//     $('video').trigger('pause'); 
+//   });
+// });
+
 
 </script>
 
