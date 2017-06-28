@@ -2558,8 +2558,10 @@ ul#portfolio li:hover span {
 }
 
 
-
-
+.threesixty .threesixty_images img.current-image {
+  height: 100%;
+  object-fit: contain;
+}
 
 
 
